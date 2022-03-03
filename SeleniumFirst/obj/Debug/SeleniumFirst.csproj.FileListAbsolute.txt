@@ -61,3 +61,5 @@ C:\Users\User\source\repos\SeleniumFirst\SeleniumFirst\bin\Debug\Microsoft.Exten
 C:\Users\User\source\repos\SeleniumFirst\SeleniumFirst\bin\Debug\System.Reactive.dll
 C:\Users\User\source\repos\SeleniumFirst\SeleniumFirst\bin\Debug\System.ValueTuple.dll
 C:\Users\User\source\repos\SeleniumFirst\SeleniumFirst\obj\Debug\SeleniumFirst.exe.config
+D:\My Documents\Job\Wise Auto Group\WAG-EMS\SeleniumFirst\obj\Debug\SeleniumFirst.exe
+D:\My Documents\Job\Wise Auto Group\WAG-EMS\SeleniumFirst\obj\Debug\SeleniumFirst.pdb
