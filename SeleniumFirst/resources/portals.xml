@@ -1,0 +1,12 @@
+<!-- Portals XML config file - Ian McCambridge 2021-->
+<allportals>
+  <portal title="NNANet" brand="(Nissan/Infiniti)" url="http://nnanet.com/content/nnanet/us/nissan/en_US/home.html"/>
+  <portal title="GMGlobal" brand="(Buick/GMC)" url="http://dealer.autopartners.net"/>
+  <portal title="HyundaiDealer" brand="(Hyundai)" url="http://wdcs.hyundaidealer.com/irj/portal/iam"/>
+  <portal title="KDealer" brand="(Kia)" url="https://www.kdealer.com/Pages/Home.aspx"/>
+  <portal title="H-D Net" brand="(Harley-Davidson)" url="https://www.h-dnet.com/isam/sps/auth/"/>
+  <portal title="VCC" brand="(Volvo)" url="http://vccidm.volvocars.biz/"/>
+  <portal title="MXConnect" brand="(Mazda)" url="https://portal.mazdausa.com/m175/MXConnect/MXConnect?id=EXTRANET_HOME_ACTION&amp;fromCntryCd=US&amp;language=en&amp;regRequired=false"/>
+  <portal title="CUDL" url="https://dealer.cudl.com/Home/Login#/Home"/>
+  <portal title="Office 365" url="https://portal.office.com/"/>
+</allportals>

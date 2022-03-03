@@ -1,0 +1,3035 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.7.2": {
+      "AngleSharp/0.16.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Buffers": "4.5.1",
+          "System.Text.Encoding.CodePages": "5.0.0"
+        },
+        "compile": {
+          "lib/net472/AngleSharp.dll": {}
+        },
+        "runtime": {
+          "lib/net472/AngleSharp.dll": {}
+        }
+      },
+      "Autoupdater.NET.Official/1.7.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "PresentationFramework",
+          "System",
+          "System.Data",
+          "System.Drawing",
+          "System.Runtime.Serialization",
+          "System.Windows.Forms",
+          "System.Xaml",
+          "System.Xml",
+          "WindowsBase"
+        ],
+        "compile": {
+          "lib/net45/AutoUpdater.NET.dll": {}
+        },
+        "runtime": {
+          "lib/net45/AutoUpdater.NET.dll": {}
+        }
+      },
+      "Discord.Net/3.3.2": {
+        "type": "package",
+        "dependencies": {
+          "Discord.Net.Commands": "3.3.2",
+          "Discord.Net.Core": "3.3.2",
+          "Discord.Net.Interactions": "3.3.2",
+          "Discord.Net.Rest": "3.3.2",
+          "Discord.Net.WebSocket": "3.3.2",
+          "Discord.Net.Webhook": "3.3.2"
+        }
+      },
+      "Discord.Net.Commands/3.3.2": {
+        "type": "package",
+        "dependencies": {
+          "Discord.Net.Core": "3.3.2"
+        },
+        "compile": {
+          "lib/net461/Discord.Net.Commands.dll": {}
+        },
+        "runtime": {
+          "lib/net461/Discord.Net.Commands.dll": {}
+        }
+      },
+      "Discord.Net.Core/3.3.2": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1",
+          "System.Collections.Immutable": "5.0.0",
+          "System.Interactive.Async": "5.0.0",
+          "System.ValueTuple": "4.5.0"
+        },
+        "compile": {
+          "lib/net461/Discord.Net.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net461/Discord.Net.Core.dll": {}
+        }
+      },
+      "Discord.Net.Interactions/3.3.2": {
+        "type": "package",
+        "dependencies": {
+          "Discord.Net.Core": "3.3.2",
+          "Discord.Net.Rest": "3.3.2",
+          "Discord.Net.WebSocket": "3.3.2",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "5.0.0",
+          "System.Collections.Immutable": "5.0.0",
+          "System.Reactive": "5.0.0"
+        },
+        "compile": {
+          "lib/net461/Discord.Net.Interactions.dll": {}
+        },
+        "runtime": {
+          "lib/net461/Discord.Net.Interactions.dll": {}
+        }
+      },
+      "Discord.Net.Rest/3.3.2": {
+        "type": "package",
+        "dependencies": {
+          "Discord.Net.Core": "3.3.2"
+        },
+        "frameworkAssemblies": [
+          "System.Net.Http"
+        ],
+        "compile": {
+          "lib/net461/Discord.Net.Rest.dll": {}
+        },
+        "runtime": {
+          "lib/net461/Discord.Net.Rest.dll": {}
+        }
+      },
+      "Discord.Net.Webhook/3.3.2": {
+        "type": "package",
+        "dependencies": {
+          "Discord.Net.Core": "3.3.2",
+          "Discord.Net.Rest": "3.3.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/Discord.Net.Webhook.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Discord.Net.Webhook.dll": {}
+        }
+      },
+      "Discord.Net.WebSocket/3.3.2": {
+        "type": "package",
+        "dependencies": {
+          "Discord.Net.Core": "3.3.2",
+          "Discord.Net.Rest": "3.3.2"
+        },
+        "compile": {
+          "lib/net461/Discord.Net.WebSocket.dll": {}
+        },
+        "runtime": {
+          "lib/net461/Discord.Net.WebSocket.dll": {}
+        }
+      },
+      "DotNetSeleniumExtras.WaitHelpers/3.11.0": {
+        "type": "package",
+        "dependencies": {
+          "Selenium.WebDriver": "3.10.0"
+        },
+        "compile": {
+          "lib/net45/SeleniumExtras.WaitHelpers.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SeleniumExtras.WaitHelpers.dll": {}
+        }
+      },
+      "Microsoft.Bcl.AsyncInterfaces/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Threading.Tasks.Extensions": "4.5.4"
+        },
+        "compile": {
+          "lib/net461/Microsoft.Bcl.AsyncInterfaces.dll": {}
+        },
+        "runtime": {
+          "lib/net461/Microsoft.Bcl.AsyncInterfaces.dll": {}
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/5.0.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Core",
+          "mscorlib"
+        ],
+        "compile": {
+          "lib/net461/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/net461/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.Office.Interop.Excel/15.0.4795.1000": {
+        "type": "package",
+        "compile": {
+          "lib/net20/Microsoft.Office.Interop.Excel.dll": {}
+        },
+        "runtime": {
+          "lib/net20/Microsoft.Office.Interop.Excel.dll": {}
+        }
+      },
+      "Microsoft.Win32.Registry/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Security.AccessControl": "5.0.0",
+          "System.Security.Principal.Windows": "5.0.0"
+        },
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/Microsoft.Win32.Registry.dll": {}
+        },
+        "runtime": {
+          "lib/net461/Microsoft.Win32.Registry.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net461/Microsoft.Win32.Registry.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "OpenQA.Selenium.Chrome.ChromeDriverExtensions/1.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Selenium.WebDriver": "3.141.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/OpenQA.Selenium.Chrome.ChromeDriverExtensions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/OpenQA.Selenium.Chrome.ChromeDriverExtensions.dll": {}
+        }
+      },
+      "Selenium.Support/4.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Selenium.WebDriver": "4.1.0"
+        },
+        "frameworkAssemblies": [
+          "System.Drawing"
+        ],
+        "compile": {
+          "lib/net47/WebDriver.Support.dll": {}
+        },
+        "runtime": {
+          "lib/net47/WebDriver.Support.dll": {}
+        }
+      },
+      "Selenium.WebDriver/4.1.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Drawing"
+        ],
+        "compile": {
+          "lib/net47/WebDriver.dll": {}
+        },
+        "runtime": {
+          "lib/net47/WebDriver.dll": {}
+        }
+      },
+      "Selenium.WebDriver.ChromeDriver/98.0.4758.8000": {
+        "type": "package",
+        "build": {
+          "build/Selenium.WebDriver.ChromeDriver.targets": {}
+        }
+      },
+      "SharpZipLib/1.3.3": {
+        "type": "package",
+        "compile": {
+          "lib/net45/ICSharpCode.SharpZipLib.dll": {}
+        },
+        "runtime": {
+          "lib/net45/ICSharpCode.SharpZipLib.dll": {}
+        }
+      },
+      "System.Buffers/4.5.1": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net45/System.Buffers.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Buffers.dll": {}
+        }
+      },
+      "System.Collections/4.3.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "ref/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/_._": {}
+        }
+      },
+      "System.Collections.Immutable/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.4",
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        },
+        "compile": {
+          "lib/net461/System.Collections.Immutable.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Collections.Immutable.dll": {}
+        }
+      },
+      "System.Data.SqlClient/4.8.3": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Data",
+          "System.Xml",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/System.Data.SqlClient.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Data.SqlClient.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netstandard2.0/System.Data.SqlClient.dll": {
+            "assetType": "runtime",
+            "rid": "unix"
+          },
+          "runtimes/win/lib/net461/System.Data.SqlClient.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "System.Interactive.Async/6.0.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Linq.Async": "6.0.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/System.Interactive.Async.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Interactive.Async.dll": {}
+        }
+      },
+      "System.Linq.Async/6.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Bcl.AsyncInterfaces": "6.0.0"
+        },
+        "compile": {
+          "ref/netstandard2.0/System.Linq.Async.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Linq.Async.dll": {}
+        }
+      },
+      "System.Memory/4.5.4": {
+        "type": "package",
+        "dependencies": {
+          "System.Buffers": "4.5.1",
+          "System.Numerics.Vectors": "4.5.0",
+          "System.Runtime.CompilerServices.Unsafe": "4.5.3"
+        },
+        "frameworkAssemblies": [
+          "System",
+          "mscorlib"
+        ],
+        "compile": {
+          "lib/net461/System.Memory.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Memory.dll": {}
+        }
+      },
+      "System.Numerics.Vectors/4.5.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Numerics",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net46/System.Numerics.Vectors.dll": {}
+        },
+        "runtime": {
+          "lib/net46/System.Numerics.Vectors.dll": {}
+        }
+      },
+      "System.Reactive/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Threading.Tasks.Extensions": "4.5.4"
+        },
+        "frameworkAssemblies": [
+          "System.Windows",
+          "System.Windows.Forms",
+          "WindowsBase"
+        ],
+        "compile": {
+          "lib/net472/System.Reactive.dll": {}
+        },
+        "runtime": {
+          "lib/net472/System.Reactive.dll": {}
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/6.0.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "lib/net461/System.Runtime.CompilerServices.Unsafe.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Runtime.CompilerServices.Unsafe.dll": {}
+        }
+      },
+      "System.Security.AccessControl/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Security.Principal.Windows": "5.0.0"
+        },
+        "compile": {
+          "lib/net461/System.Security.AccessControl.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Security.AccessControl.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net461/System.Security.AccessControl.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "System.Security.Principal.Windows/5.0.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/System.Security.Principal.Windows.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Security.Principal.Windows.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net461/System.Security.Principal.Windows.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "System.Text.Encoding.CodePages/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.4",
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        },
+        "compile": {
+          "lib/net461/System.Text.Encoding.CodePages.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Text.Encoding.CodePages.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net461/System.Text.Encoding.CodePages.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "System.Threading.Tasks.Extensions/4.5.4": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "4.5.3"
+        },
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "lib/net461/System.Threading.Tasks.Extensions.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Threading.Tasks.Extensions.dll": {}
+        }
+      },
+      "System.ValueTuple/4.5.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net47/System.ValueTuple.dll": {}
+        },
+        "runtime": {
+          "lib/net47/System.ValueTuple.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.2/win": {
+      "AngleSharp/0.16.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Buffers": "4.5.1",
+          "System.Text.Encoding.CodePages": "5.0.0"
+        },
+        "compile": {
+          "lib/net472/AngleSharp.dll": {}
+        },
+        "runtime": {
+          "lib/net472/AngleSharp.dll": {}
+        }
+      },
+      "Autoupdater.NET.Official/1.7.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "PresentationFramework",
+          "System",
+          "System.Data",
+          "System.Drawing",
+          "System.Runtime.Serialization",
+          "System.Windows.Forms",
+          "System.Xaml",
+          "System.Xml",
+          "WindowsBase"
+        ],
+        "compile": {
+          "lib/net45/AutoUpdater.NET.dll": {}
+        },
+        "runtime": {
+          "lib/net45/AutoUpdater.NET.dll": {}
+        }
+      },
+      "Discord.Net/3.3.2": {
+        "type": "package",
+        "dependencies": {
+          "Discord.Net.Commands": "3.3.2",
+          "Discord.Net.Core": "3.3.2",
+          "Discord.Net.Interactions": "3.3.2",
+          "Discord.Net.Rest": "3.3.2",
+          "Discord.Net.WebSocket": "3.3.2",
+          "Discord.Net.Webhook": "3.3.2"
+        }
+      },
+      "Discord.Net.Commands/3.3.2": {
+        "type": "package",
+        "dependencies": {
+          "Discord.Net.Core": "3.3.2"
+        },
+        "compile": {
+          "lib/net461/Discord.Net.Commands.dll": {}
+        },
+        "runtime": {
+          "lib/net461/Discord.Net.Commands.dll": {}
+        }
+      },
+      "Discord.Net.Core/3.3.2": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1",
+          "System.Collections.Immutable": "5.0.0",
+          "System.Interactive.Async": "5.0.0",
+          "System.ValueTuple": "4.5.0"
+        },
+        "compile": {
+          "lib/net461/Discord.Net.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net461/Discord.Net.Core.dll": {}
+        }
+      },
+      "Discord.Net.Interactions/3.3.2": {
+        "type": "package",
+        "dependencies": {
+          "Discord.Net.Core": "3.3.2",
+          "Discord.Net.Rest": "3.3.2",
+          "Discord.Net.WebSocket": "3.3.2",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "5.0.0",
+          "System.Collections.Immutable": "5.0.0",
+          "System.Reactive": "5.0.0"
+        },
+        "compile": {
+          "lib/net461/Discord.Net.Interactions.dll": {}
+        },
+        "runtime": {
+          "lib/net461/Discord.Net.Interactions.dll": {}
+        }
+      },
+      "Discord.Net.Rest/3.3.2": {
+        "type": "package",
+        "dependencies": {
+          "Discord.Net.Core": "3.3.2"
+        },
+        "frameworkAssemblies": [
+          "System.Net.Http"
+        ],
+        "compile": {
+          "lib/net461/Discord.Net.Rest.dll": {}
+        },
+        "runtime": {
+          "lib/net461/Discord.Net.Rest.dll": {}
+        }
+      },
+      "Discord.Net.Webhook/3.3.2": {
+        "type": "package",
+        "dependencies": {
+          "Discord.Net.Core": "3.3.2",
+          "Discord.Net.Rest": "3.3.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/Discord.Net.Webhook.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Discord.Net.Webhook.dll": {}
+        }
+      },
+      "Discord.Net.WebSocket/3.3.2": {
+        "type": "package",
+        "dependencies": {
+          "Discord.Net.Core": "3.3.2",
+          "Discord.Net.Rest": "3.3.2"
+        },
+        "compile": {
+          "lib/net461/Discord.Net.WebSocket.dll": {}
+        },
+        "runtime": {
+          "lib/net461/Discord.Net.WebSocket.dll": {}
+        }
+      },
+      "DotNetSeleniumExtras.WaitHelpers/3.11.0": {
+        "type": "package",
+        "dependencies": {
+          "Selenium.WebDriver": "3.10.0"
+        },
+        "compile": {
+          "lib/net45/SeleniumExtras.WaitHelpers.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SeleniumExtras.WaitHelpers.dll": {}
+        }
+      },
+      "Microsoft.Bcl.AsyncInterfaces/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Threading.Tasks.Extensions": "4.5.4"
+        },
+        "compile": {
+          "lib/net461/Microsoft.Bcl.AsyncInterfaces.dll": {}
+        },
+        "runtime": {
+          "lib/net461/Microsoft.Bcl.AsyncInterfaces.dll": {}
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/5.0.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Core",
+          "mscorlib"
+        ],
+        "compile": {
+          "lib/net461/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/net461/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.Office.Interop.Excel/15.0.4795.1000": {
+        "type": "package",
+        "compile": {
+          "lib/net20/Microsoft.Office.Interop.Excel.dll": {}
+        },
+        "runtime": {
+          "lib/net20/Microsoft.Office.Interop.Excel.dll": {}
+        }
+      },
+      "Microsoft.Win32.Registry/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Security.AccessControl": "5.0.0",
+          "System.Security.Principal.Windows": "5.0.0"
+        },
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/Microsoft.Win32.Registry.dll": {}
+        },
+        "runtime": {
+          "runtimes/win/lib/net461/Microsoft.Win32.Registry.dll": {}
+        }
+      },
+      "Newtonsoft.Json/13.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "OpenQA.Selenium.Chrome.ChromeDriverExtensions/1.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Selenium.WebDriver": "3.141.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/OpenQA.Selenium.Chrome.ChromeDriverExtensions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/OpenQA.Selenium.Chrome.ChromeDriverExtensions.dll": {}
+        }
+      },
+      "Selenium.Support/4.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Selenium.WebDriver": "4.1.0"
+        },
+        "frameworkAssemblies": [
+          "System.Drawing"
+        ],
+        "compile": {
+          "lib/net47/WebDriver.Support.dll": {}
+        },
+        "runtime": {
+          "lib/net47/WebDriver.Support.dll": {}
+        }
+      },
+      "Selenium.WebDriver/4.1.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Drawing"
+        ],
+        "compile": {
+          "lib/net47/WebDriver.dll": {}
+        },
+        "runtime": {
+          "lib/net47/WebDriver.dll": {}
+        }
+      },
+      "Selenium.WebDriver.ChromeDriver/98.0.4758.8000": {
+        "type": "package",
+        "build": {
+          "build/Selenium.WebDriver.ChromeDriver.targets": {}
+        }
+      },
+      "SharpZipLib/1.3.3": {
+        "type": "package",
+        "compile": {
+          "lib/net45/ICSharpCode.SharpZipLib.dll": {}
+        },
+        "runtime": {
+          "lib/net45/ICSharpCode.SharpZipLib.dll": {}
+        }
+      },
+      "System.Buffers/4.5.1": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net45/System.Buffers.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Buffers.dll": {}
+        }
+      },
+      "System.Collections/4.3.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "ref/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/_._": {}
+        }
+      },
+      "System.Collections.Immutable/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.4",
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        },
+        "compile": {
+          "lib/net461/System.Collections.Immutable.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Collections.Immutable.dll": {}
+        }
+      },
+      "System.Data.SqlClient/4.8.3": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Data",
+          "System.Xml",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/System.Data.SqlClient.dll": {}
+        },
+        "runtime": {
+          "runtimes/win/lib/net461/System.Data.SqlClient.dll": {}
+        }
+      },
+      "System.Interactive.Async/6.0.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Linq.Async": "6.0.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/System.Interactive.Async.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Interactive.Async.dll": {}
+        }
+      },
+      "System.Linq.Async/6.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Bcl.AsyncInterfaces": "6.0.0"
+        },
+        "compile": {
+          "ref/netstandard2.0/System.Linq.Async.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Linq.Async.dll": {}
+        }
+      },
+      "System.Memory/4.5.4": {
+        "type": "package",
+        "dependencies": {
+          "System.Buffers": "4.5.1",
+          "System.Numerics.Vectors": "4.5.0",
+          "System.Runtime.CompilerServices.Unsafe": "4.5.3"
+        },
+        "frameworkAssemblies": [
+          "System",
+          "mscorlib"
+        ],
+        "compile": {
+          "lib/net461/System.Memory.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Memory.dll": {}
+        }
+      },
+      "System.Numerics.Vectors/4.5.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Numerics",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net46/System.Numerics.Vectors.dll": {}
+        },
+        "runtime": {
+          "lib/net46/System.Numerics.Vectors.dll": {}
+        }
+      },
+      "System.Reactive/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Threading.Tasks.Extensions": "4.5.4"
+        },
+        "frameworkAssemblies": [
+          "System.Windows",
+          "System.Windows.Forms",
+          "WindowsBase"
+        ],
+        "compile": {
+          "lib/net472/System.Reactive.dll": {}
+        },
+        "runtime": {
+          "lib/net472/System.Reactive.dll": {}
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/6.0.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "lib/net461/System.Runtime.CompilerServices.Unsafe.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Runtime.CompilerServices.Unsafe.dll": {}
+        }
+      },
+      "System.Security.AccessControl/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Security.Principal.Windows": "5.0.0"
+        },
+        "compile": {
+          "lib/net461/System.Security.AccessControl.dll": {}
+        },
+        "runtime": {
+          "runtimes/win/lib/net461/System.Security.AccessControl.dll": {}
+        }
+      },
+      "System.Security.Principal.Windows/5.0.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/System.Security.Principal.Windows.dll": {}
+        },
+        "runtime": {
+          "runtimes/win/lib/net461/System.Security.Principal.Windows.dll": {}
+        }
+      },
+      "System.Text.Encoding.CodePages/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.4",
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        },
+        "compile": {
+          "lib/net461/System.Text.Encoding.CodePages.dll": {}
+        },
+        "runtime": {
+          "runtimes/win/lib/net461/System.Text.Encoding.CodePages.dll": {}
+        }
+      },
+      "System.Threading.Tasks.Extensions/4.5.4": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "4.5.3"
+        },
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "lib/net461/System.Threading.Tasks.Extensions.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Threading.Tasks.Extensions.dll": {}
+        }
+      },
+      "System.ValueTuple/4.5.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net47/System.ValueTuple.dll": {}
+        },
+        "runtime": {
+          "lib/net47/System.ValueTuple.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.2/win-x64": {
+      "AngleSharp/0.16.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Buffers": "4.5.1",
+          "System.Text.Encoding.CodePages": "5.0.0"
+        },
+        "compile": {
+          "lib/net472/AngleSharp.dll": {}
+        },
+        "runtime": {
+          "lib/net472/AngleSharp.dll": {}
+        }
+      },
+      "Autoupdater.NET.Official/1.7.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "PresentationFramework",
+          "System",
+          "System.Data",
+          "System.Drawing",
+          "System.Runtime.Serialization",
+          "System.Windows.Forms",
+          "System.Xaml",
+          "System.Xml",
+          "WindowsBase"
+        ],
+        "compile": {
+          "lib/net45/AutoUpdater.NET.dll": {}
+        },
+        "runtime": {
+          "lib/net45/AutoUpdater.NET.dll": {}
+        }
+      },
+      "Discord.Net/3.3.2": {
+        "type": "package",
+        "dependencies": {
+          "Discord.Net.Commands": "3.3.2",
+          "Discord.Net.Core": "3.3.2",
+          "Discord.Net.Interactions": "3.3.2",
+          "Discord.Net.Rest": "3.3.2",
+          "Discord.Net.WebSocket": "3.3.2",
+          "Discord.Net.Webhook": "3.3.2"
+        }
+      },
+      "Discord.Net.Commands/3.3.2": {
+        "type": "package",
+        "dependencies": {
+          "Discord.Net.Core": "3.3.2"
+        },
+        "compile": {
+          "lib/net461/Discord.Net.Commands.dll": {}
+        },
+        "runtime": {
+          "lib/net461/Discord.Net.Commands.dll": {}
+        }
+      },
+      "Discord.Net.Core/3.3.2": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1",
+          "System.Collections.Immutable": "5.0.0",
+          "System.Interactive.Async": "5.0.0",
+          "System.ValueTuple": "4.5.0"
+        },
+        "compile": {
+          "lib/net461/Discord.Net.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net461/Discord.Net.Core.dll": {}
+        }
+      },
+      "Discord.Net.Interactions/3.3.2": {
+        "type": "package",
+        "dependencies": {
+          "Discord.Net.Core": "3.3.2",
+          "Discord.Net.Rest": "3.3.2",
+          "Discord.Net.WebSocket": "3.3.2",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "5.0.0",
+          "System.Collections.Immutable": "5.0.0",
+          "System.Reactive": "5.0.0"
+        },
+        "compile": {
+          "lib/net461/Discord.Net.Interactions.dll": {}
+        },
+        "runtime": {
+          "lib/net461/Discord.Net.Interactions.dll": {}
+        }
+      },
+      "Discord.Net.Rest/3.3.2": {
+        "type": "package",
+        "dependencies": {
+          "Discord.Net.Core": "3.3.2"
+        },
+        "frameworkAssemblies": [
+          "System.Net.Http"
+        ],
+        "compile": {
+          "lib/net461/Discord.Net.Rest.dll": {}
+        },
+        "runtime": {
+          "lib/net461/Discord.Net.Rest.dll": {}
+        }
+      },
+      "Discord.Net.Webhook/3.3.2": {
+        "type": "package",
+        "dependencies": {
+          "Discord.Net.Core": "3.3.2",
+          "Discord.Net.Rest": "3.3.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/Discord.Net.Webhook.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Discord.Net.Webhook.dll": {}
+        }
+      },
+      "Discord.Net.WebSocket/3.3.2": {
+        "type": "package",
+        "dependencies": {
+          "Discord.Net.Core": "3.3.2",
+          "Discord.Net.Rest": "3.3.2"
+        },
+        "compile": {
+          "lib/net461/Discord.Net.WebSocket.dll": {}
+        },
+        "runtime": {
+          "lib/net461/Discord.Net.WebSocket.dll": {}
+        }
+      },
+      "DotNetSeleniumExtras.WaitHelpers/3.11.0": {
+        "type": "package",
+        "dependencies": {
+          "Selenium.WebDriver": "3.10.0"
+        },
+        "compile": {
+          "lib/net45/SeleniumExtras.WaitHelpers.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SeleniumExtras.WaitHelpers.dll": {}
+        }
+      },
+      "Microsoft.Bcl.AsyncInterfaces/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Threading.Tasks.Extensions": "4.5.4"
+        },
+        "compile": {
+          "lib/net461/Microsoft.Bcl.AsyncInterfaces.dll": {}
+        },
+        "runtime": {
+          "lib/net461/Microsoft.Bcl.AsyncInterfaces.dll": {}
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/5.0.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Core",
+          "mscorlib"
+        ],
+        "compile": {
+          "lib/net461/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/net461/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.Office.Interop.Excel/15.0.4795.1000": {
+        "type": "package",
+        "compile": {
+          "lib/net20/Microsoft.Office.Interop.Excel.dll": {}
+        },
+        "runtime": {
+          "lib/net20/Microsoft.Office.Interop.Excel.dll": {}
+        }
+      },
+      "Microsoft.Win32.Registry/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Security.AccessControl": "5.0.0",
+          "System.Security.Principal.Windows": "5.0.0"
+        },
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/Microsoft.Win32.Registry.dll": {}
+        },
+        "runtime": {
+          "lib/net461/Microsoft.Win32.Registry.dll": {}
+        }
+      },
+      "Newtonsoft.Json/13.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "OpenQA.Selenium.Chrome.ChromeDriverExtensions/1.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Selenium.WebDriver": "3.141.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/OpenQA.Selenium.Chrome.ChromeDriverExtensions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/OpenQA.Selenium.Chrome.ChromeDriverExtensions.dll": {}
+        }
+      },
+      "Selenium.Support/4.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Selenium.WebDriver": "4.1.0"
+        },
+        "frameworkAssemblies": [
+          "System.Drawing"
+        ],
+        "compile": {
+          "lib/net47/WebDriver.Support.dll": {}
+        },
+        "runtime": {
+          "lib/net47/WebDriver.Support.dll": {}
+        }
+      },
+      "Selenium.WebDriver/4.1.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Drawing"
+        ],
+        "compile": {
+          "lib/net47/WebDriver.dll": {}
+        },
+        "runtime": {
+          "lib/net47/WebDriver.dll": {}
+        }
+      },
+      "Selenium.WebDriver.ChromeDriver/98.0.4758.8000": {
+        "type": "package",
+        "build": {
+          "build/Selenium.WebDriver.ChromeDriver.targets": {}
+        }
+      },
+      "SharpZipLib/1.3.3": {
+        "type": "package",
+        "compile": {
+          "lib/net45/ICSharpCode.SharpZipLib.dll": {}
+        },
+        "runtime": {
+          "lib/net45/ICSharpCode.SharpZipLib.dll": {}
+        }
+      },
+      "System.Buffers/4.5.1": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net45/System.Buffers.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Buffers.dll": {}
+        }
+      },
+      "System.Collections/4.3.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "ref/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/_._": {}
+        }
+      },
+      "System.Collections.Immutable/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.4",
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        },
+        "compile": {
+          "lib/net461/System.Collections.Immutable.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Collections.Immutable.dll": {}
+        }
+      },
+      "System.Data.SqlClient/4.8.3": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Data",
+          "System.Xml",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/System.Data.SqlClient.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Data.SqlClient.dll": {}
+        }
+      },
+      "System.Interactive.Async/6.0.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Linq.Async": "6.0.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/System.Interactive.Async.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Interactive.Async.dll": {}
+        }
+      },
+      "System.Linq.Async/6.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Bcl.AsyncInterfaces": "6.0.0"
+        },
+        "compile": {
+          "ref/netstandard2.0/System.Linq.Async.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Linq.Async.dll": {}
+        }
+      },
+      "System.Memory/4.5.4": {
+        "type": "package",
+        "dependencies": {
+          "System.Buffers": "4.5.1",
+          "System.Numerics.Vectors": "4.5.0",
+          "System.Runtime.CompilerServices.Unsafe": "4.5.3"
+        },
+        "frameworkAssemblies": [
+          "System",
+          "mscorlib"
+        ],
+        "compile": {
+          "lib/net461/System.Memory.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Memory.dll": {}
+        }
+      },
+      "System.Numerics.Vectors/4.5.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Numerics",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net46/System.Numerics.Vectors.dll": {}
+        },
+        "runtime": {
+          "lib/net46/System.Numerics.Vectors.dll": {}
+        }
+      },
+      "System.Reactive/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Threading.Tasks.Extensions": "4.5.4"
+        },
+        "frameworkAssemblies": [
+          "System.Windows",
+          "System.Windows.Forms",
+          "WindowsBase"
+        ],
+        "compile": {
+          "lib/net472/System.Reactive.dll": {}
+        },
+        "runtime": {
+          "lib/net472/System.Reactive.dll": {}
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/6.0.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "lib/net461/System.Runtime.CompilerServices.Unsafe.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Runtime.CompilerServices.Unsafe.dll": {}
+        }
+      },
+      "System.Security.AccessControl/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Security.Principal.Windows": "5.0.0"
+        },
+        "compile": {
+          "lib/net461/System.Security.AccessControl.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Security.AccessControl.dll": {}
+        }
+      },
+      "System.Security.Principal.Windows/5.0.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/System.Security.Principal.Windows.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Security.Principal.Windows.dll": {}
+        }
+      },
+      "System.Text.Encoding.CodePages/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.4",
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        },
+        "compile": {
+          "lib/net461/System.Text.Encoding.CodePages.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Text.Encoding.CodePages.dll": {}
+        }
+      },
+      "System.Threading.Tasks.Extensions/4.5.4": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "4.5.3"
+        },
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "lib/net461/System.Threading.Tasks.Extensions.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Threading.Tasks.Extensions.dll": {}
+        }
+      },
+      "System.ValueTuple/4.5.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net47/System.ValueTuple.dll": {}
+        },
+        "runtime": {
+          "lib/net47/System.ValueTuple.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.2/win-x86": {
+      "AngleSharp/0.16.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Buffers": "4.5.1",
+          "System.Text.Encoding.CodePages": "5.0.0"
+        },
+        "compile": {
+          "lib/net472/AngleSharp.dll": {}
+        },
+        "runtime": {
+          "lib/net472/AngleSharp.dll": {}
+        }
+      },
+      "Autoupdater.NET.Official/1.7.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "PresentationFramework",
+          "System",
+          "System.Data",
+          "System.Drawing",
+          "System.Runtime.Serialization",
+          "System.Windows.Forms",
+          "System.Xaml",
+          "System.Xml",
+          "WindowsBase"
+        ],
+        "compile": {
+          "lib/net45/AutoUpdater.NET.dll": {}
+        },
+        "runtime": {
+          "lib/net45/AutoUpdater.NET.dll": {}
+        }
+      },
+      "Discord.Net/3.3.2": {
+        "type": "package",
+        "dependencies": {
+          "Discord.Net.Commands": "3.3.2",
+          "Discord.Net.Core": "3.3.2",
+          "Discord.Net.Interactions": "3.3.2",
+          "Discord.Net.Rest": "3.3.2",
+          "Discord.Net.WebSocket": "3.3.2",
+          "Discord.Net.Webhook": "3.3.2"
+        }
+      },
+      "Discord.Net.Commands/3.3.2": {
+        "type": "package",
+        "dependencies": {
+          "Discord.Net.Core": "3.3.2"
+        },
+        "compile": {
+          "lib/net461/Discord.Net.Commands.dll": {}
+        },
+        "runtime": {
+          "lib/net461/Discord.Net.Commands.dll": {}
+        }
+      },
+      "Discord.Net.Core/3.3.2": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1",
+          "System.Collections.Immutable": "5.0.0",
+          "System.Interactive.Async": "5.0.0",
+          "System.ValueTuple": "4.5.0"
+        },
+        "compile": {
+          "lib/net461/Discord.Net.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net461/Discord.Net.Core.dll": {}
+        }
+      },
+      "Discord.Net.Interactions/3.3.2": {
+        "type": "package",
+        "dependencies": {
+          "Discord.Net.Core": "3.3.2",
+          "Discord.Net.Rest": "3.3.2",
+          "Discord.Net.WebSocket": "3.3.2",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "5.0.0",
+          "System.Collections.Immutable": "5.0.0",
+          "System.Reactive": "5.0.0"
+        },
+        "compile": {
+          "lib/net461/Discord.Net.Interactions.dll": {}
+        },
+        "runtime": {
+          "lib/net461/Discord.Net.Interactions.dll": {}
+        }
+      },
+      "Discord.Net.Rest/3.3.2": {
+        "type": "package",
+        "dependencies": {
+          "Discord.Net.Core": "3.3.2"
+        },
+        "frameworkAssemblies": [
+          "System.Net.Http"
+        ],
+        "compile": {
+          "lib/net461/Discord.Net.Rest.dll": {}
+        },
+        "runtime": {
+          "lib/net461/Discord.Net.Rest.dll": {}
+        }
+      },
+      "Discord.Net.Webhook/3.3.2": {
+        "type": "package",
+        "dependencies": {
+          "Discord.Net.Core": "3.3.2",
+          "Discord.Net.Rest": "3.3.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/Discord.Net.Webhook.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Discord.Net.Webhook.dll": {}
+        }
+      },
+      "Discord.Net.WebSocket/3.3.2": {
+        "type": "package",
+        "dependencies": {
+          "Discord.Net.Core": "3.3.2",
+          "Discord.Net.Rest": "3.3.2"
+        },
+        "compile": {
+          "lib/net461/Discord.Net.WebSocket.dll": {}
+        },
+        "runtime": {
+          "lib/net461/Discord.Net.WebSocket.dll": {}
+        }
+      },
+      "DotNetSeleniumExtras.WaitHelpers/3.11.0": {
+        "type": "package",
+        "dependencies": {
+          "Selenium.WebDriver": "3.10.0"
+        },
+        "compile": {
+          "lib/net45/SeleniumExtras.WaitHelpers.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SeleniumExtras.WaitHelpers.dll": {}
+        }
+      },
+      "Microsoft.Bcl.AsyncInterfaces/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Threading.Tasks.Extensions": "4.5.4"
+        },
+        "compile": {
+          "lib/net461/Microsoft.Bcl.AsyncInterfaces.dll": {}
+        },
+        "runtime": {
+          "lib/net461/Microsoft.Bcl.AsyncInterfaces.dll": {}
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/5.0.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Core",
+          "mscorlib"
+        ],
+        "compile": {
+          "lib/net461/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/net461/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.Office.Interop.Excel/15.0.4795.1000": {
+        "type": "package",
+        "compile": {
+          "lib/net20/Microsoft.Office.Interop.Excel.dll": {}
+        },
+        "runtime": {
+          "lib/net20/Microsoft.Office.Interop.Excel.dll": {}
+        }
+      },
+      "Microsoft.Win32.Registry/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Security.AccessControl": "5.0.0",
+          "System.Security.Principal.Windows": "5.0.0"
+        },
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/Microsoft.Win32.Registry.dll": {}
+        },
+        "runtime": {
+          "lib/net461/Microsoft.Win32.Registry.dll": {}
+        }
+      },
+      "Newtonsoft.Json/13.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "OpenQA.Selenium.Chrome.ChromeDriverExtensions/1.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Selenium.WebDriver": "3.141.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/OpenQA.Selenium.Chrome.ChromeDriverExtensions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/OpenQA.Selenium.Chrome.ChromeDriverExtensions.dll": {}
+        }
+      },
+      "Selenium.Support/4.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Selenium.WebDriver": "4.1.0"
+        },
+        "frameworkAssemblies": [
+          "System.Drawing"
+        ],
+        "compile": {
+          "lib/net47/WebDriver.Support.dll": {}
+        },
+        "runtime": {
+          "lib/net47/WebDriver.Support.dll": {}
+        }
+      },
+      "Selenium.WebDriver/4.1.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Drawing"
+        ],
+        "compile": {
+          "lib/net47/WebDriver.dll": {}
+        },
+        "runtime": {
+          "lib/net47/WebDriver.dll": {}
+        }
+      },
+      "Selenium.WebDriver.ChromeDriver/98.0.4758.8000": {
+        "type": "package",
+        "build": {
+          "build/Selenium.WebDriver.ChromeDriver.targets": {}
+        }
+      },
+      "SharpZipLib/1.3.3": {
+        "type": "package",
+        "compile": {
+          "lib/net45/ICSharpCode.SharpZipLib.dll": {}
+        },
+        "runtime": {
+          "lib/net45/ICSharpCode.SharpZipLib.dll": {}
+        }
+      },
+      "System.Buffers/4.5.1": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net45/System.Buffers.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Buffers.dll": {}
+        }
+      },
+      "System.Collections/4.3.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "ref/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/_._": {}
+        }
+      },
+      "System.Collections.Immutable/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.4",
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        },
+        "compile": {
+          "lib/net461/System.Collections.Immutable.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Collections.Immutable.dll": {}
+        }
+      },
+      "System.Data.SqlClient/4.8.3": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Data",
+          "System.Xml",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/System.Data.SqlClient.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Data.SqlClient.dll": {}
+        }
+      },
+      "System.Interactive.Async/6.0.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Linq.Async": "6.0.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/System.Interactive.Async.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Interactive.Async.dll": {}
+        }
+      },
+      "System.Linq.Async/6.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Bcl.AsyncInterfaces": "6.0.0"
+        },
+        "compile": {
+          "ref/netstandard2.0/System.Linq.Async.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Linq.Async.dll": {}
+        }
+      },
+      "System.Memory/4.5.4": {
+        "type": "package",
+        "dependencies": {
+          "System.Buffers": "4.5.1",
+          "System.Numerics.Vectors": "4.5.0",
+          "System.Runtime.CompilerServices.Unsafe": "4.5.3"
+        },
+        "frameworkAssemblies": [
+          "System",
+          "mscorlib"
+        ],
+        "compile": {
+          "lib/net461/System.Memory.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Memory.dll": {}
+        }
+      },
+      "System.Numerics.Vectors/4.5.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Numerics",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net46/System.Numerics.Vectors.dll": {}
+        },
+        "runtime": {
+          "lib/net46/System.Numerics.Vectors.dll": {}
+        }
+      },
+      "System.Reactive/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Threading.Tasks.Extensions": "4.5.4"
+        },
+        "frameworkAssemblies": [
+          "System.Windows",
+          "System.Windows.Forms",
+          "WindowsBase"
+        ],
+        "compile": {
+          "lib/net472/System.Reactive.dll": {}
+        },
+        "runtime": {
+          "lib/net472/System.Reactive.dll": {}
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/6.0.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "lib/net461/System.Runtime.CompilerServices.Unsafe.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Runtime.CompilerServices.Unsafe.dll": {}
+        }
+      },
+      "System.Security.AccessControl/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Security.Principal.Windows": "5.0.0"
+        },
+        "compile": {
+          "lib/net461/System.Security.AccessControl.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Security.AccessControl.dll": {}
+        }
+      },
+      "System.Security.Principal.Windows/5.0.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/System.Security.Principal.Windows.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Security.Principal.Windows.dll": {}
+        }
+      },
+      "System.Text.Encoding.CodePages/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.4",
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        },
+        "compile": {
+          "lib/net461/System.Text.Encoding.CodePages.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Text.Encoding.CodePages.dll": {}
+        }
+      },
+      "System.Threading.Tasks.Extensions/4.5.4": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "4.5.3"
+        },
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "lib/net461/System.Threading.Tasks.Extensions.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Threading.Tasks.Extensions.dll": {}
+        }
+      },
+      "System.ValueTuple/4.5.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net47/System.ValueTuple.dll": {}
+        },
+        "runtime": {
+          "lib/net47/System.ValueTuple.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AngleSharp/0.16.1": {
+      "sha512": "1k7Vbfmr5IUsGaR0QJwTe8XF9zacFUIoWxMgI4X/ipiyKxCWZJZoaG96fNEugL90iubvboRvE1IxuBPibET/Rg==",
+      "type": "package",
+      "path": "anglesharp/0.16.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "anglesharp.0.16.1.nupkg.sha512",
+        "anglesharp.nuspec",
+        "lib/net46/AngleSharp.dll",
+        "lib/net46/AngleSharp.xml",
+        "lib/net461/AngleSharp.dll",
+        "lib/net461/AngleSharp.xml",
+        "lib/net472/AngleSharp.dll",
+        "lib/net472/AngleSharp.xml",
+        "lib/netstandard2.0/AngleSharp.dll",
+        "lib/netstandard2.0/AngleSharp.xml",
+        "logo.png"
+      ]
+    },
+    "Autoupdater.NET.Official/1.7.0": {
+      "sha512": "gNBNXwaiLc9oNtJ0WWwRvWsmGVpCN8ii2acpHpYtttkKh3xYJjmbLG2uf243r+nXbmo6KVauXGC82Igt2kHhxw==",
+      "type": "package",
+      "path": "autoupdater.net.official/1.7.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "autoupdater.net.official.1.7.0.nupkg.sha512",
+        "autoupdater.net.official.nuspec",
+        "lib/net45/AutoUpdater.NET.dll",
+        "lib/net45/AutoUpdater.NET.pdb",
+        "lib/net45/AutoUpdater.NET.xml",
+        "lib/net5.0-windows/AutoUpdater.NET.deps.json",
+        "lib/net5.0-windows/AutoUpdater.NET.dll",
+        "lib/net5.0-windows/AutoUpdater.NET.pdb",
+        "lib/net5.0-windows/AutoUpdater.NET.xml",
+        "lib/net5.0-windows/ar/AutoUpdater.NET.resources.dll",
+        "lib/net5.0-windows/cs/AutoUpdater.NET.resources.dll",
+        "lib/net5.0-windows/da/AutoUpdater.NET.resources.dll",
+        "lib/net5.0-windows/de/AutoUpdater.NET.resources.dll",
+        "lib/net5.0-windows/es/AutoUpdater.NET.resources.dll",
+        "lib/net5.0-windows/fr/AutoUpdater.NET.resources.dll",
+        "lib/net5.0-windows/it/AutoUpdater.NET.resources.dll",
+        "lib/net5.0-windows/ja-JP/AutoUpdater.NET.resources.dll",
+        "lib/net5.0-windows/ko/AutoUpdater.NET.resources.dll",
+        "lib/net5.0-windows/nl/AutoUpdater.NET.resources.dll",
+        "lib/net5.0-windows/pl/AutoUpdater.NET.resources.dll",
+        "lib/net5.0-windows/pt-BR/AutoUpdater.NET.resources.dll",
+        "lib/net5.0-windows/pt/AutoUpdater.NET.resources.dll",
+        "lib/net5.0-windows/ru/AutoUpdater.NET.resources.dll",
+        "lib/net5.0-windows/sk/AutoUpdater.NET.resources.dll",
+        "lib/net5.0-windows/sv/AutoUpdater.NET.resources.dll",
+        "lib/net5.0-windows/th/AutoUpdater.NET.resources.dll",
+        "lib/net5.0-windows/tr/AutoUpdater.NET.resources.dll",
+        "lib/net5.0-windows/zh-tw/AutoUpdater.NET.resources.dll",
+        "lib/net5.0-windows/zh/AutoUpdater.NET.resources.dll",
+        "lib/netcoreapp3.1/AutoUpdater.NET.deps.json",
+        "lib/netcoreapp3.1/AutoUpdater.NET.dll",
+        "lib/netcoreapp3.1/AutoUpdater.NET.pdb",
+        "lib/netcoreapp3.1/AutoUpdater.NET.xml",
+        "lib/netcoreapp3.1/ar/AutoUpdater.NET.resources.dll",
+        "lib/netcoreapp3.1/cs/AutoUpdater.NET.resources.dll",
+        "lib/netcoreapp3.1/da/AutoUpdater.NET.resources.dll",
+        "lib/netcoreapp3.1/de/AutoUpdater.NET.resources.dll",
+        "lib/netcoreapp3.1/es/AutoUpdater.NET.resources.dll",
+        "lib/netcoreapp3.1/fr/AutoUpdater.NET.resources.dll",
+        "lib/netcoreapp3.1/it/AutoUpdater.NET.resources.dll",
+        "lib/netcoreapp3.1/ja-JP/AutoUpdater.NET.resources.dll",
+        "lib/netcoreapp3.1/ko/AutoUpdater.NET.resources.dll",
+        "lib/netcoreapp3.1/nl/AutoUpdater.NET.resources.dll",
+        "lib/netcoreapp3.1/pl/AutoUpdater.NET.resources.dll",
+        "lib/netcoreapp3.1/pt-BR/AutoUpdater.NET.resources.dll",
+        "lib/netcoreapp3.1/pt/AutoUpdater.NET.resources.dll",
+        "lib/netcoreapp3.1/ru/AutoUpdater.NET.resources.dll",
+        "lib/netcoreapp3.1/sk/AutoUpdater.NET.resources.dll",
+        "lib/netcoreapp3.1/sv/AutoUpdater.NET.resources.dll",
+        "lib/netcoreapp3.1/th/AutoUpdater.NET.resources.dll",
+        "lib/netcoreapp3.1/tr/AutoUpdater.NET.resources.dll",
+        "lib/netcoreapp3.1/zh-tw/AutoUpdater.NET.resources.dll",
+        "lib/netcoreapp3.1/zh/AutoUpdater.NET.resources.dll"
+      ]
+    },
+    "Discord.Net/3.3.2": {
+      "sha512": "IZRsQ9QXY3em75g9jqRQYavabauf7QHg6mg+i16lnn1ZkSW3qMZYohY1PRPAXtAKCTfMLvD2LmLYP0a9csmXrw==",
+      "type": "package",
+      "path": "discord.net/3.3.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "discord.net.3.3.2.nupkg.sha512",
+        "discord.net.nuspec"
+      ]
+    },
+    "Discord.Net.Commands/3.3.2": {
+      "sha512": "Eihc8nAMbvhDIkcOcS1v9eUVeZrUZkACAzhsNU8lO7FRwHn6QMNCTR4ox/TKv0E+D898MYJDJz0Lx25kw2TTHw==",
+      "type": "package",
+      "path": "discord.net.commands/3.3.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "discord.net.commands.3.3.2.nupkg.sha512",
+        "discord.net.commands.nuspec",
+        "lib/net461/Discord.Net.Commands.dll",
+        "lib/net461/Discord.Net.Commands.xml",
+        "lib/net5.0/Discord.Net.Commands.dll",
+        "lib/net5.0/Discord.Net.Commands.xml",
+        "lib/net6.0/Discord.Net.Commands.dll",
+        "lib/net6.0/Discord.Net.Commands.xml",
+        "lib/netstandard2.0/Discord.Net.Commands.dll",
+        "lib/netstandard2.0/Discord.Net.Commands.xml",
+        "lib/netstandard2.1/Discord.Net.Commands.dll",
+        "lib/netstandard2.1/Discord.Net.Commands.xml"
+      ]
+    },
+    "Discord.Net.Core/3.3.2": {
+      "sha512": "w19FDNDJXbYOFpEdHuZbM9mQAVVdKervChUTEwgIdC4nB5XbZl/hsAv4tePsNIo+ygJusOlMvVSYi2EEl/REAg==",
+      "type": "package",
+      "path": "discord.net.core/3.3.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "discord.net.core.3.3.2.nupkg.sha512",
+        "discord.net.core.nuspec",
+        "lib/net461/Discord.Net.Core.dll",
+        "lib/net461/Discord.Net.Core.xml",
+        "lib/net5.0/Discord.Net.Core.dll",
+        "lib/net5.0/Discord.Net.Core.xml",
+        "lib/net6.0/Discord.Net.Core.dll",
+        "lib/net6.0/Discord.Net.Core.xml",
+        "lib/netstandard2.0/Discord.Net.Core.dll",
+        "lib/netstandard2.0/Discord.Net.Core.xml",
+        "lib/netstandard2.1/Discord.Net.Core.dll",
+        "lib/netstandard2.1/Discord.Net.Core.xml"
+      ]
+    },
+    "Discord.Net.Interactions/3.3.2": {
+      "sha512": "C2wKmQJew5gTdFMoVqNPsao89eY91fffMEzpZVfPMQ3TJx1wnHE1A1kl1jDDX0P5Vn3uTwW/luPJ2zSF2CFZCw==",
+      "type": "package",
+      "path": "discord.net.interactions/3.3.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "discord.net.interactions.3.3.2.nupkg.sha512",
+        "discord.net.interactions.nuspec",
+        "lib/net461/Discord.Net.Interactions.dll",
+        "lib/net461/Discord.Net.Interactions.xml",
+        "lib/net5.0/Discord.Net.Interactions.dll",
+        "lib/net5.0/Discord.Net.Interactions.xml",
+        "lib/net6.0/Discord.Net.Interactions.dll",
+        "lib/net6.0/Discord.Net.Interactions.xml",
+        "lib/netstandard2.0/Discord.Net.Interactions.dll",
+        "lib/netstandard2.0/Discord.Net.Interactions.xml",
+        "lib/netstandard2.1/Discord.Net.Interactions.dll",
+        "lib/netstandard2.1/Discord.Net.Interactions.xml"
+      ]
+    },
+    "Discord.Net.Rest/3.3.2": {
+      "sha512": "SzQHG+rOEXBMyOEEUiXCazxYSiIoGU1jYW8xzgZa/N9IodNNtd+iS99hLCGg++AO+jjpEILNGmTaPg8Jg+RjNQ==",
+      "type": "package",
+      "path": "discord.net.rest/3.3.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "discord.net.rest.3.3.2.nupkg.sha512",
+        "discord.net.rest.nuspec",
+        "lib/net461/Discord.Net.Rest.dll",
+        "lib/net461/Discord.Net.Rest.xml",
+        "lib/net5.0/Discord.Net.Rest.dll",
+        "lib/net5.0/Discord.Net.Rest.xml",
+        "lib/net6.0/Discord.Net.Rest.dll",
+        "lib/net6.0/Discord.Net.Rest.xml",
+        "lib/netstandard2.0/Discord.Net.Rest.dll",
+        "lib/netstandard2.0/Discord.Net.Rest.xml",
+        "lib/netstandard2.1/Discord.Net.Rest.dll",
+        "lib/netstandard2.1/Discord.Net.Rest.xml"
+      ]
+    },
+    "Discord.Net.Webhook/3.3.2": {
+      "sha512": "ePBpUg5TeDMpkfCcXHVruMBFznRhDuWZGonbW/i9WWIkB//7jUptG6jHsSsdKj0sBRv6KX2p3uzMtR5xH4MyLQ==",
+      "type": "package",
+      "path": "discord.net.webhook/3.3.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "discord.net.webhook.3.3.2.nupkg.sha512",
+        "discord.net.webhook.nuspec",
+        "lib/net5.0/Discord.Net.Webhook.dll",
+        "lib/net5.0/Discord.Net.Webhook.xml",
+        "lib/net6.0/Discord.Net.Webhook.dll",
+        "lib/net6.0/Discord.Net.Webhook.xml",
+        "lib/netstandard2.0/Discord.Net.Webhook.dll",
+        "lib/netstandard2.0/Discord.Net.Webhook.xml",
+        "lib/netstandard2.1/Discord.Net.Webhook.dll",
+        "lib/netstandard2.1/Discord.Net.Webhook.xml"
+      ]
+    },
+    "Discord.Net.WebSocket/3.3.2": {
+      "sha512": "py7ZuLY9wXE0KU6aWiXwB1oeO4rZ/+7hREbR9Z5vW5lj2Qss7sSgBrs6bt1i02dFQp5xhid5pDheO3coeSt2CQ==",
+      "type": "package",
+      "path": "discord.net.websocket/3.3.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "discord.net.websocket.3.3.2.nupkg.sha512",
+        "discord.net.websocket.nuspec",
+        "lib/net461/Discord.Net.WebSocket.dll",
+        "lib/net461/Discord.Net.WebSocket.xml",
+        "lib/net5.0/Discord.Net.WebSocket.dll",
+        "lib/net5.0/Discord.Net.WebSocket.xml",
+        "lib/net6.0/Discord.Net.WebSocket.dll",
+        "lib/net6.0/Discord.Net.WebSocket.xml",
+        "lib/netstandard2.0/Discord.Net.WebSocket.dll",
+        "lib/netstandard2.0/Discord.Net.WebSocket.xml",
+        "lib/netstandard2.1/Discord.Net.WebSocket.dll",
+        "lib/netstandard2.1/Discord.Net.WebSocket.xml"
+      ]
+    },
+    "DotNetSeleniumExtras.WaitHelpers/3.11.0": {
+      "sha512": "xc6jVVl5ymgk3ZNWnC/KHxkEup1QpnwYbrwF+NQoCOGERsD8YMlLwmsX4lGhLXCLo/YQTRTIwlKCN9E/doGUNg==",
+      "type": "package",
+      "path": "dotnetseleniumextras.waithelpers/3.11.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "dotnetseleniumextras.waithelpers.3.11.0.nupkg.sha512",
+        "dotnetseleniumextras.waithelpers.nuspec",
+        "lib/net35/SeleniumExtras.WaitHelpers.dll",
+        "lib/net40/SeleniumExtras.WaitHelpers.dll",
+        "lib/net45/SeleniumExtras.WaitHelpers.dll",
+        "lib/netstandard2.0/SeleniumExtras.WaitHelpers.dll"
+      ]
+    },
+    "Microsoft.Bcl.AsyncInterfaces/6.0.0": {
+      "sha512": "UcSjPsst+DfAdJGVDsu346FX0ci0ah+lw3WRtn18NUwEqRt70HaOQ7lI72vy3+1LxtqI3T5GWwV39rQSrCzAeg==",
+      "type": "package",
+      "path": "microsoft.bcl.asyncinterfaces/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/Microsoft.Bcl.AsyncInterfaces.dll",
+        "lib/net461/Microsoft.Bcl.AsyncInterfaces.xml",
+        "lib/netstandard2.0/Microsoft.Bcl.AsyncInterfaces.dll",
+        "lib/netstandard2.0/Microsoft.Bcl.AsyncInterfaces.xml",
+        "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll",
+        "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.xml",
+        "microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
+        "microsoft.bcl.asyncinterfaces.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/5.0.0": {
+      "sha512": "ORj7Zh81gC69TyvmcUm9tSzytcy8AVousi+IVRAI8nLieQjOFryRusSFh7+aLk16FN9pQNqJAiMd7BTKINK0kA==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net461/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.abstractions.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "Microsoft.Office.Interop.Excel/15.0.4795.1000": {
+      "sha512": "DfceS96ustwfL8EOJNNRtpk6b0RylhjNpgeeemuvi9X4GYks2UTeAimjSrdFEfuqRo5ibZ4Sd0gJIeDr9gMa6Q==",
+      "type": "package",
+      "path": "microsoft.office.interop.excel/15.0.4795.1000",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net20/Microsoft.Office.Interop.Excel.dll",
+        "microsoft.office.interop.excel.15.0.4795.1000.nupkg.sha512",
+        "microsoft.office.interop.excel.nuspec"
+      ]
+    },
+    "Microsoft.Win32.Registry/5.0.0": {
+      "sha512": "dDoKi0PnDz31yAyETfRntsLArTlVAVzUzCIvvEDsDsucrl33Dl8pIJG06ePTJTI3tGpeyHS9Cq7Foc/s4EeKcg==",
+      "type": "package",
+      "path": "microsoft.win32.registry/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net46/Microsoft.Win32.Registry.dll",
+        "lib/net461/Microsoft.Win32.Registry.dll",
+        "lib/net461/Microsoft.Win32.Registry.xml",
+        "lib/netstandard1.3/Microsoft.Win32.Registry.dll",
+        "lib/netstandard2.0/Microsoft.Win32.Registry.dll",
+        "lib/netstandard2.0/Microsoft.Win32.Registry.xml",
+        "microsoft.win32.registry.5.0.0.nupkg.sha512",
+        "microsoft.win32.registry.nuspec",
+        "ref/net46/Microsoft.Win32.Registry.dll",
+        "ref/net461/Microsoft.Win32.Registry.dll",
+        "ref/net461/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/Microsoft.Win32.Registry.dll",
+        "ref/netstandard1.3/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/de/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/es/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/fr/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/it/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/ja/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/ko/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/ru/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/zh-hans/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/zh-hant/Microsoft.Win32.Registry.xml",
+        "ref/netstandard2.0/Microsoft.Win32.Registry.dll",
+        "ref/netstandard2.0/Microsoft.Win32.Registry.xml",
+        "runtimes/win/lib/net46/Microsoft.Win32.Registry.dll",
+        "runtimes/win/lib/net461/Microsoft.Win32.Registry.dll",
+        "runtimes/win/lib/net461/Microsoft.Win32.Registry.xml",
+        "runtimes/win/lib/netstandard1.3/Microsoft.Win32.Registry.dll",
+        "runtimes/win/lib/netstandard2.0/Microsoft.Win32.Registry.dll",
+        "runtimes/win/lib/netstandard2.0/Microsoft.Win32.Registry.xml",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "Newtonsoft.Json/13.0.1": {
+      "sha512": "ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
+      "type": "package",
+      "path": "newtonsoft.json/13.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "newtonsoft.json.13.0.1.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    },
+    "OpenQA.Selenium.Chrome.ChromeDriverExtensions/1.2.0": {
+      "sha512": "z5/MAdjFlHcECXN4sxS356Hul5iJD1vHznAwINo9YR3j+PXVU2PjgmkLEB6zvRLxzouL8qfNBioSWkxfvlsbMg==",
+      "type": "package",
+      "path": "openqa.selenium.chrome.chromedriverextensions/1.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/OpenQA.Selenium.Chrome.ChromeDriverExtensions.dll",
+        "openqa.selenium.chrome.chromedriverextensions.1.2.0.nupkg.sha512",
+        "openqa.selenium.chrome.chromedriverextensions.nuspec"
+      ]
+    },
+    "Selenium.Support/4.1.0": {
+      "sha512": "wuK5cfgVaimOZqyuriY2geGpNsI9DWky8CuBlrkBnmebkSrRftxqwyUVy0NLooHaAB2iaMj7qM+VOdUEX5bCHQ==",
+      "type": "package",
+      "path": "selenium.support/4.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "images/icon.png",
+        "lib/net45/WebDriver.Support.dll",
+        "lib/net46/WebDriver.Support.dll",
+        "lib/net47/WebDriver.Support.dll",
+        "lib/net48/WebDriver.Support.dll",
+        "lib/net5.0/WebDriver.Support.dll",
+        "lib/netstandard2.0/WebDriver.Support.dll",
+        "lib/netstandard2.1/WebDriver.Support.dll",
+        "selenium.support.4.1.0.nupkg.sha512",
+        "selenium.support.nuspec"
+      ]
+    },
+    "Selenium.WebDriver/4.1.0": {
+      "sha512": "d4smisz4a/wJCM2TzkKTl+BLfvZUTvaobhKElDfCVZlvY8ThsC8VAoBNWTlg1H/GGzIP//yVGko/W0FILTgkYA==",
+      "type": "package",
+      "path": "selenium.webdriver/4.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "images/icon.png",
+        "lib/net45/WebDriver.dll",
+        "lib/net46/WebDriver.dll",
+        "lib/net47/WebDriver.dll",
+        "lib/net48/WebDriver.dll",
+        "lib/net5.0/WebDriver.dll",
+        "lib/netstandard2.0/WebDriver.dll",
+        "lib/netstandard2.1/WebDriver.dll",
+        "selenium.webdriver.4.1.0.nupkg.sha512",
+        "selenium.webdriver.nuspec"
+      ]
+    },
+    "Selenium.WebDriver.ChromeDriver/98.0.4758.8000": {
+      "sha512": "p3kenltviCY7VSJy61V0fhjJYx6ePxYlU6AfhKRU9QdlSn5pSFzXFr6tWKqlF7qVX/R+WAaW5L+g+a0qhnOqBw==",
+      "type": "package",
+      "path": "selenium.webdriver.chromedriver/98.0.4758.8000",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "build/DefinePropertiesChromeDriver.targets",
+        "build/Selenium.WebDriver.ChromeDriver.targets",
+        "driver/linux64/chromedriver",
+        "driver/mac64/chromedriver",
+        "driver/win32/chromedriver.exe",
+        "nupkg-icon.png",
+        "selenium.webdriver.chromedriver.98.0.4758.8000.nupkg.sha512",
+        "selenium.webdriver.chromedriver.nuspec"
+      ]
+    },
+    "SharpZipLib/1.3.3": {
+      "sha512": "N8+hwhsKZm25tDJfWpBSW7EGhH/R7EMuiX+KJ4C4u+fCWVc1lJ5zg1u3S1RPPVYgTqhx/C3hxrqUpi6RwK5+Tg==",
+      "type": "package",
+      "path": "sharpziplib/1.3.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "images/sharpziplib-nuget-256x256.png",
+        "lib/net45/ICSharpCode.SharpZipLib.dll",
+        "lib/net45/ICSharpCode.SharpZipLib.pdb",
+        "lib/net45/ICSharpCode.SharpZipLib.xml",
+        "lib/netstandard2.0/ICSharpCode.SharpZipLib.dll",
+        "lib/netstandard2.0/ICSharpCode.SharpZipLib.pdb",
+        "lib/netstandard2.0/ICSharpCode.SharpZipLib.xml",
+        "lib/netstandard2.1/ICSharpCode.SharpZipLib.dll",
+        "lib/netstandard2.1/ICSharpCode.SharpZipLib.pdb",
+        "lib/netstandard2.1/ICSharpCode.SharpZipLib.xml",
+        "sharpziplib.1.3.3.nupkg.sha512",
+        "sharpziplib.nuspec"
+      ]
+    },
+    "System.Buffers/4.5.1": {
+      "sha512": "Rw7ijyl1qqRS0YQD/WycNst8hUUMgrMH4FCn1nNm27M4VxchZ1js3fVjQaANHO5f3sN4isvP4a+Met9Y4YomAg==",
+      "type": "package",
+      "path": "system.buffers/4.5.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.Buffers.dll",
+        "lib/net461/System.Buffers.xml",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.1/System.Buffers.dll",
+        "lib/netstandard1.1/System.Buffers.xml",
+        "lib/netstandard2.0/System.Buffers.dll",
+        "lib/netstandard2.0/System.Buffers.xml",
+        "lib/uap10.0.16299/_._",
+        "ref/net45/System.Buffers.dll",
+        "ref/net45/System.Buffers.xml",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard1.1/System.Buffers.dll",
+        "ref/netstandard1.1/System.Buffers.xml",
+        "ref/netstandard2.0/System.Buffers.dll",
+        "ref/netstandard2.0/System.Buffers.xml",
+        "ref/uap10.0.16299/_._",
+        "system.buffers.4.5.1.nupkg.sha512",
+        "system.buffers.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Collections/4.3.0": {
+      "sha512": "3Dcj85/TBdVpL5Zr+gEEBUuFe2icOnLalmEh9hfck1PTYbbyWuZgh4fmm2ysCLTrqLQw6t3TgTyJ+VLp+Qb+Lw==",
+      "type": "package",
+      "path": "system.collections/4.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/_._",
+        "lib/portable-net45+win8+wp8+wpa81/_._",
+        "lib/win8/_._",
+        "lib/wp80/_._",
+        "lib/wpa81/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/_._",
+        "ref/netcore50/System.Collections.dll",
+        "ref/netcore50/System.Collections.xml",
+        "ref/netcore50/de/System.Collections.xml",
+        "ref/netcore50/es/System.Collections.xml",
+        "ref/netcore50/fr/System.Collections.xml",
+        "ref/netcore50/it/System.Collections.xml",
+        "ref/netcore50/ja/System.Collections.xml",
+        "ref/netcore50/ko/System.Collections.xml",
+        "ref/netcore50/ru/System.Collections.xml",
+        "ref/netcore50/zh-hans/System.Collections.xml",
+        "ref/netcore50/zh-hant/System.Collections.xml",
+        "ref/netstandard1.0/System.Collections.dll",
+        "ref/netstandard1.0/System.Collections.xml",
+        "ref/netstandard1.0/de/System.Collections.xml",
+        "ref/netstandard1.0/es/System.Collections.xml",
+        "ref/netstandard1.0/fr/System.Collections.xml",
+        "ref/netstandard1.0/it/System.Collections.xml",
+        "ref/netstandard1.0/ja/System.Collections.xml",
+        "ref/netstandard1.0/ko/System.Collections.xml",
+        "ref/netstandard1.0/ru/System.Collections.xml",
+        "ref/netstandard1.0/zh-hans/System.Collections.xml",
+        "ref/netstandard1.0/zh-hant/System.Collections.xml",
+        "ref/netstandard1.3/System.Collections.dll",
+        "ref/netstandard1.3/System.Collections.xml",
+        "ref/netstandard1.3/de/System.Collections.xml",
+        "ref/netstandard1.3/es/System.Collections.xml",
+        "ref/netstandard1.3/fr/System.Collections.xml",
+        "ref/netstandard1.3/it/System.Collections.xml",
+        "ref/netstandard1.3/ja/System.Collections.xml",
+        "ref/netstandard1.3/ko/System.Collections.xml",
+        "ref/netstandard1.3/ru/System.Collections.xml",
+        "ref/netstandard1.3/zh-hans/System.Collections.xml",
+        "ref/netstandard1.3/zh-hant/System.Collections.xml",
+        "ref/portable-net45+win8+wp8+wpa81/_._",
+        "ref/win8/_._",
+        "ref/wp80/_._",
+        "ref/wpa81/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.collections.4.3.0.nupkg.sha512",
+        "system.collections.nuspec"
+      ]
+    },
+    "System.Collections.Immutable/6.0.0": {
+      "sha512": "l4zZJ1WU2hqpQQHXz1rvC3etVZN+2DLmQMO79FhOTZHMn8tDRr+WU287sbomD0BETlmKDn0ygUgVy9k5xkkJdA==",
+      "type": "package",
+      "path": "system.collections.immutable/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/netcoreapp2.0/System.Collections.Immutable.targets",
+        "buildTransitive/netcoreapp3.1/_._",
+        "lib/net461/System.Collections.Immutable.dll",
+        "lib/net461/System.Collections.Immutable.xml",
+        "lib/net6.0/System.Collections.Immutable.dll",
+        "lib/net6.0/System.Collections.Immutable.xml",
+        "lib/netstandard2.0/System.Collections.Immutable.dll",
+        "lib/netstandard2.0/System.Collections.Immutable.xml",
+        "system.collections.immutable.6.0.0.nupkg.sha512",
+        "system.collections.immutable.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "System.Data.SqlClient/4.8.3": {
+      "sha512": "yERfVLXAY0QbylAgaGLByYN0hFxX28aeEQ0hUgJO+Ntn1AfmWl5HHUoYJA0Yl9HhIUUJHVaS/Sw/RLZr5aaC+A==",
+      "type": "package",
+      "path": "system.data.sqlclient/4.8.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net451/System.Data.SqlClient.dll",
+        "lib/net46/System.Data.SqlClient.dll",
+        "lib/net461/System.Data.SqlClient.dll",
+        "lib/net461/System.Data.SqlClient.xml",
+        "lib/netcoreapp2.1/System.Data.SqlClient.dll",
+        "lib/netcoreapp2.1/System.Data.SqlClient.xml",
+        "lib/netstandard1.2/System.Data.SqlClient.dll",
+        "lib/netstandard1.2/System.Data.SqlClient.xml",
+        "lib/netstandard1.3/System.Data.SqlClient.dll",
+        "lib/netstandard1.3/System.Data.SqlClient.xml",
+        "lib/netstandard2.0/System.Data.SqlClient.dll",
+        "lib/netstandard2.0/System.Data.SqlClient.xml",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net451/System.Data.SqlClient.dll",
+        "ref/net46/System.Data.SqlClient.dll",
+        "ref/net461/System.Data.SqlClient.dll",
+        "ref/net461/System.Data.SqlClient.xml",
+        "ref/netcoreapp2.1/System.Data.SqlClient.dll",
+        "ref/netcoreapp2.1/System.Data.SqlClient.xml",
+        "ref/netstandard1.2/System.Data.SqlClient.dll",
+        "ref/netstandard1.2/System.Data.SqlClient.xml",
+        "ref/netstandard1.2/de/System.Data.SqlClient.xml",
+        "ref/netstandard1.2/es/System.Data.SqlClient.xml",
+        "ref/netstandard1.2/fr/System.Data.SqlClient.xml",
+        "ref/netstandard1.2/it/System.Data.SqlClient.xml",
+        "ref/netstandard1.2/ja/System.Data.SqlClient.xml",
+        "ref/netstandard1.2/ko/System.Data.SqlClient.xml",
+        "ref/netstandard1.2/ru/System.Data.SqlClient.xml",
+        "ref/netstandard1.2/zh-hans/System.Data.SqlClient.xml",
+        "ref/netstandard1.2/zh-hant/System.Data.SqlClient.xml",
+        "ref/netstandard1.3/System.Data.SqlClient.dll",
+        "ref/netstandard1.3/System.Data.SqlClient.xml",
+        "ref/netstandard1.3/de/System.Data.SqlClient.xml",
+        "ref/netstandard1.3/es/System.Data.SqlClient.xml",
+        "ref/netstandard1.3/fr/System.Data.SqlClient.xml",
+        "ref/netstandard1.3/it/System.Data.SqlClient.xml",
+        "ref/netstandard1.3/ja/System.Data.SqlClient.xml",
+        "ref/netstandard1.3/ko/System.Data.SqlClient.xml",
+        "ref/netstandard1.3/ru/System.Data.SqlClient.xml",
+        "ref/netstandard1.3/zh-hans/System.Data.SqlClient.xml",
+        "ref/netstandard1.3/zh-hant/System.Data.SqlClient.xml",
+        "ref/netstandard2.0/System.Data.SqlClient.dll",
+        "ref/netstandard2.0/System.Data.SqlClient.xml",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.dll",
+        "runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.xml",
+        "runtimes/unix/lib/netstandard1.3/System.Data.SqlClient.dll",
+        "runtimes/unix/lib/netstandard2.0/System.Data.SqlClient.dll",
+        "runtimes/unix/lib/netstandard2.0/System.Data.SqlClient.xml",
+        "runtimes/win/lib/net451/System.Data.SqlClient.dll",
+        "runtimes/win/lib/net46/System.Data.SqlClient.dll",
+        "runtimes/win/lib/net461/System.Data.SqlClient.dll",
+        "runtimes/win/lib/net461/System.Data.SqlClient.xml",
+        "runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll",
+        "runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.xml",
+        "runtimes/win/lib/netstandard1.3/System.Data.SqlClient.dll",
+        "runtimes/win/lib/netstandard2.0/System.Data.SqlClient.dll",
+        "runtimes/win/lib/netstandard2.0/System.Data.SqlClient.xml",
+        "runtimes/win/lib/uap10.0.16299/System.Data.SqlClient.dll",
+        "runtimes/win/lib/uap10.0.16299/System.Data.SqlClient.xml",
+        "system.data.sqlclient.4.8.3.nupkg.sha512",
+        "system.data.sqlclient.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Interactive.Async/6.0.1": {
+      "sha512": "f8H1O4ZWDQo344y5NQU76G4SIjWMuKDVXL9OM1dg6K5YZnLkc8iCdQDybBvMcC6ufk61jzXGVAX6UCDu0qDSjA==",
+      "type": "package",
+      "path": "system.interactive.async/6.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Logo.png",
+        "lib/net48/System.Interactive.Async.dll",
+        "lib/net48/System.Interactive.Async.xml",
+        "lib/net6.0/System.Interactive.Async.dll",
+        "lib/net6.0/System.Interactive.Async.xml",
+        "lib/netstandard2.0/System.Interactive.Async.dll",
+        "lib/netstandard2.0/System.Interactive.Async.xml",
+        "lib/netstandard2.1/System.Interactive.Async.dll",
+        "lib/netstandard2.1/System.Interactive.Async.xml",
+        "system.interactive.async.6.0.1.nupkg.sha512",
+        "system.interactive.async.nuspec"
+      ]
+    },
+    "System.Linq.Async/6.0.1": {
+      "sha512": "0YhHcaroWpQ9UCot3Pizah7ryAzQhNvobLMSxeDIGmnXfkQn8u5owvpOH0K6EVB+z9L7u6Cc4W17Br/+jyttEQ==",
+      "type": "package",
+      "path": "system.linq.async/6.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Logo.png",
+        "lib/net48/System.Linq.Async.dll",
+        "lib/net48/System.Linq.Async.xml",
+        "lib/net6.0/System.Linq.Async.dll",
+        "lib/net6.0/System.Linq.Async.xml",
+        "lib/netstandard2.0/System.Linq.Async.dll",
+        "lib/netstandard2.0/System.Linq.Async.xml",
+        "lib/netstandard2.1/System.Linq.Async.dll",
+        "lib/netstandard2.1/System.Linq.Async.xml",
+        "ref/net48/System.Linq.Async.dll",
+        "ref/net48/System.Linq.Async.xml",
+        "ref/net6.0/System.Linq.Async.dll",
+        "ref/net6.0/System.Linq.Async.xml",
+        "ref/netstandard2.0/System.Linq.Async.dll",
+        "ref/netstandard2.0/System.Linq.Async.xml",
+        "ref/netstandard2.1/System.Linq.Async.dll",
+        "ref/netstandard2.1/System.Linq.Async.xml",
+        "system.linq.async.6.0.1.nupkg.sha512",
+        "system.linq.async.nuspec"
+      ]
+    },
+    "System.Memory/4.5.4": {
+      "sha512": "1MbJTHS1lZ4bS4FmsJjnuGJOu88ZzTT2rLvrhW7Ygic+pC0NWA+3hgAen0HRdsocuQXCkUTdFn9yHJJhsijDXw==",
+      "type": "package",
+      "path": "system.memory/4.5.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.Memory.dll",
+        "lib/net461/System.Memory.xml",
+        "lib/netcoreapp2.1/_._",
+        "lib/netstandard1.1/System.Memory.dll",
+        "lib/netstandard1.1/System.Memory.xml",
+        "lib/netstandard2.0/System.Memory.dll",
+        "lib/netstandard2.0/System.Memory.xml",
+        "ref/netcoreapp2.1/_._",
+        "system.memory.4.5.4.nupkg.sha512",
+        "system.memory.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Numerics.Vectors/4.5.0": {
+      "sha512": "QQTlPTl06J/iiDbJCiepZ4H//BVraReU4O4EoRw1U02H5TLUIT7xn3GnDp9AXPSlJUDyFs4uWjWafNX6WrAojQ==",
+      "type": "package",
+      "path": "system.numerics.vectors/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net46/System.Numerics.Vectors.dll",
+        "lib/net46/System.Numerics.Vectors.xml",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.0/System.Numerics.Vectors.dll",
+        "lib/netstandard1.0/System.Numerics.Vectors.xml",
+        "lib/netstandard2.0/System.Numerics.Vectors.dll",
+        "lib/netstandard2.0/System.Numerics.Vectors.xml",
+        "lib/portable-net45+win8+wp8+wpa81/System.Numerics.Vectors.dll",
+        "lib/portable-net45+win8+wp8+wpa81/System.Numerics.Vectors.xml",
+        "lib/uap10.0.16299/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/System.Numerics.Vectors.dll",
+        "ref/net45/System.Numerics.Vectors.xml",
+        "ref/net46/System.Numerics.Vectors.dll",
+        "ref/net46/System.Numerics.Vectors.xml",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard1.0/System.Numerics.Vectors.dll",
+        "ref/netstandard1.0/System.Numerics.Vectors.xml",
+        "ref/netstandard2.0/System.Numerics.Vectors.dll",
+        "ref/netstandard2.0/System.Numerics.Vectors.xml",
+        "ref/uap10.0.16299/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.numerics.vectors.4.5.0.nupkg.sha512",
+        "system.numerics.vectors.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Reactive/5.0.0": {
+      "sha512": "erBZjkQHWL9jpasCE/0qKAryzVBJFxGHVBAvgRN1bzM0q2s1S4oYREEEL0Vb+1kA/6BKb5FjUZMp5VXmy+gzkQ==",
+      "type": "package",
+      "path": "system.reactive/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/net5.0/_._",
+        "build/netcoreapp3.1/System.Reactive.dll",
+        "build/netcoreapp3.1/System.Reactive.targets",
+        "build/netcoreapp3.1/System.Reactive.xml",
+        "buildTransitive/net5.0/_._",
+        "buildTransitive/netcoreapp3.1/System.Reactive.targets",
+        "lib/net472/System.Reactive.dll",
+        "lib/net472/System.Reactive.xml",
+        "lib/net5.0-windows10.0.19041/System.Reactive.dll",
+        "lib/net5.0-windows10.0.19041/System.Reactive.xml",
+        "lib/net5.0/System.Reactive.dll",
+        "lib/net5.0/System.Reactive.xml",
+        "lib/netcoreapp3.1/_._",
+        "lib/netstandard2.0/System.Reactive.dll",
+        "lib/netstandard2.0/System.Reactive.xml",
+        "lib/uap10.0.16299/System.Reactive.dll",
+        "lib/uap10.0.16299/System.Reactive.pri",
+        "lib/uap10.0.16299/System.Reactive.xml",
+        "system.reactive.5.0.0.nupkg.sha512",
+        "system.reactive.nuspec"
+      ]
+    },
+    "System.Runtime.CompilerServices.Unsafe/6.0.0": {
+      "sha512": "/iUeP3tq1S0XdNNoMz5C9twLSrM/TH+qElHkXWaPvuNOt+99G75NrV0OS2EqHx5wMN7popYjpc8oTjC1y16DLg==",
+      "type": "package",
+      "path": "system.runtime.compilerservices.unsafe/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.targets",
+        "buildTransitive/netcoreapp3.1/_._",
+        "lib/net461/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/net461/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/net6.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/netcoreapp3.1/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netcoreapp3.1/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+        "system.runtime.compilerservices.unsafe.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "System.Security.AccessControl/6.0.0": {
+      "sha512": "AUADIc0LIEQe7MzC+I0cl0rAT8RrTAKFHl53yHjEUzNVIaUlhFY11vc2ebiVJzVBuOzun6F7FBA+8KAbGTTedQ==",
+      "type": "package",
+      "path": "system.security.accesscontrol/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/netcoreapp2.0/System.Security.AccessControl.targets",
+        "buildTransitive/netcoreapp3.1/_._",
+        "lib/net461/System.Security.AccessControl.dll",
+        "lib/net461/System.Security.AccessControl.xml",
+        "lib/net6.0/System.Security.AccessControl.dll",
+        "lib/net6.0/System.Security.AccessControl.xml",
+        "lib/netstandard2.0/System.Security.AccessControl.dll",
+        "lib/netstandard2.0/System.Security.AccessControl.xml",
+        "runtimes/win/lib/net461/System.Security.AccessControl.dll",
+        "runtimes/win/lib/net461/System.Security.AccessControl.xml",
+        "runtimes/win/lib/net6.0/System.Security.AccessControl.dll",
+        "runtimes/win/lib/net6.0/System.Security.AccessControl.xml",
+        "runtimes/win/lib/netstandard2.0/System.Security.AccessControl.dll",
+        "runtimes/win/lib/netstandard2.0/System.Security.AccessControl.xml",
+        "system.security.accesscontrol.6.0.0.nupkg.sha512",
+        "system.security.accesscontrol.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "System.Security.Principal.Windows/5.0.0": {
+      "sha512": "t0MGLukB5WAVU9bO3MGzvlGnyJPgUlcwerXn1kzBRjwLKixT96XV0Uza41W49gVd8zEMFu9vQEFlv0IOrytICA==",
+      "type": "package",
+      "path": "system.security.principal.windows/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net46/System.Security.Principal.Windows.dll",
+        "lib/net461/System.Security.Principal.Windows.dll",
+        "lib/net461/System.Security.Principal.Windows.xml",
+        "lib/netstandard1.3/System.Security.Principal.Windows.dll",
+        "lib/netstandard2.0/System.Security.Principal.Windows.dll",
+        "lib/netstandard2.0/System.Security.Principal.Windows.xml",
+        "lib/uap10.0.16299/_._",
+        "ref/net46/System.Security.Principal.Windows.dll",
+        "ref/net461/System.Security.Principal.Windows.dll",
+        "ref/net461/System.Security.Principal.Windows.xml",
+        "ref/netcoreapp3.0/System.Security.Principal.Windows.dll",
+        "ref/netcoreapp3.0/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/System.Security.Principal.Windows.dll",
+        "ref/netstandard1.3/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/de/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/es/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/fr/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/it/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/ja/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/ko/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/ru/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/zh-hans/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/zh-hant/System.Security.Principal.Windows.xml",
+        "ref/netstandard2.0/System.Security.Principal.Windows.dll",
+        "ref/netstandard2.0/System.Security.Principal.Windows.xml",
+        "ref/uap10.0.16299/_._",
+        "runtimes/unix/lib/netcoreapp2.0/System.Security.Principal.Windows.dll",
+        "runtimes/unix/lib/netcoreapp2.0/System.Security.Principal.Windows.xml",
+        "runtimes/unix/lib/netcoreapp2.1/System.Security.Principal.Windows.dll",
+        "runtimes/unix/lib/netcoreapp2.1/System.Security.Principal.Windows.xml",
+        "runtimes/win/lib/net46/System.Security.Principal.Windows.dll",
+        "runtimes/win/lib/net461/System.Security.Principal.Windows.dll",
+        "runtimes/win/lib/net461/System.Security.Principal.Windows.xml",
+        "runtimes/win/lib/netcoreapp2.0/System.Security.Principal.Windows.dll",
+        "runtimes/win/lib/netcoreapp2.0/System.Security.Principal.Windows.xml",
+        "runtimes/win/lib/netcoreapp2.1/System.Security.Principal.Windows.dll",
+        "runtimes/win/lib/netcoreapp2.1/System.Security.Principal.Windows.xml",
+        "runtimes/win/lib/netstandard1.3/System.Security.Principal.Windows.dll",
+        "runtimes/win/lib/uap10.0.16299/_._",
+        "system.security.principal.windows.5.0.0.nupkg.sha512",
+        "system.security.principal.windows.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Text.Encoding.CodePages/6.0.0": {
+      "sha512": "ZFCILZuOvtKPauZ/j/swhvw68ZRi9ATCfvGbk1QfydmcXBkIWecWKn/250UH7rahZ5OoDBaiAudJtPvLwzw85A==",
+      "type": "package",
+      "path": "system.text.encoding.codepages/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/netcoreapp2.0/System.Text.Encoding.CodePages.targets",
+        "buildTransitive/netcoreapp3.1/_._",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net461/System.Text.Encoding.CodePages.dll",
+        "lib/net461/System.Text.Encoding.CodePages.xml",
+        "lib/net6.0/System.Text.Encoding.CodePages.dll",
+        "lib/net6.0/System.Text.Encoding.CodePages.xml",
+        "lib/netcoreapp3.1/System.Text.Encoding.CodePages.dll",
+        "lib/netcoreapp3.1/System.Text.Encoding.CodePages.xml",
+        "lib/netstandard2.0/System.Text.Encoding.CodePages.dll",
+        "lib/netstandard2.0/System.Text.Encoding.CodePages.xml",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "runtimes/win/lib/net461/System.Text.Encoding.CodePages.dll",
+        "runtimes/win/lib/net461/System.Text.Encoding.CodePages.xml",
+        "runtimes/win/lib/net6.0/System.Text.Encoding.CodePages.dll",
+        "runtimes/win/lib/net6.0/System.Text.Encoding.CodePages.xml",
+        "runtimes/win/lib/netcoreapp3.1/System.Text.Encoding.CodePages.dll",
+        "runtimes/win/lib/netcoreapp3.1/System.Text.Encoding.CodePages.xml",
+        "runtimes/win/lib/netstandard2.0/System.Text.Encoding.CodePages.dll",
+        "runtimes/win/lib/netstandard2.0/System.Text.Encoding.CodePages.xml",
+        "system.text.encoding.codepages.6.0.0.nupkg.sha512",
+        "system.text.encoding.codepages.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "System.Threading.Tasks.Extensions/4.5.4": {
+      "sha512": "zteT+G8xuGu6mS+mzDzYXbzS7rd3K6Fjb9RiZlYlJPam2/hU7JCBZBVEcywNuR+oZ1ncTvc/cq0faRr3P01OVg==",
+      "type": "package",
+      "path": "system.threading.tasks.extensions/4.5.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net461/System.Threading.Tasks.Extensions.dll",
+        "lib/net461/System.Threading.Tasks.Extensions.xml",
+        "lib/netcoreapp2.1/_._",
+        "lib/netstandard1.0/System.Threading.Tasks.Extensions.dll",
+        "lib/netstandard1.0/System.Threading.Tasks.Extensions.xml",
+        "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll",
+        "lib/netstandard2.0/System.Threading.Tasks.Extensions.xml",
+        "lib/portable-net45+win8+wp8+wpa81/System.Threading.Tasks.Extensions.dll",
+        "lib/portable-net45+win8+wp8+wpa81/System.Threading.Tasks.Extensions.xml",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/netcoreapp2.1/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.threading.tasks.extensions.4.5.4.nupkg.sha512",
+        "system.threading.tasks.extensions.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.ValueTuple/4.5.0": {
+      "sha512": "okurQJO6NRE/apDIP23ajJ0hpiNmJ+f0BwOlB/cSqTLQlw5upkf+5+96+iG2Jw40G1fCVCyPz/FhIABUjMR+RQ==",
+      "type": "package",
+      "path": "system.valuetuple/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net461/System.ValueTuple.dll",
+        "lib/net461/System.ValueTuple.xml",
+        "lib/net47/System.ValueTuple.dll",
+        "lib/net47/System.ValueTuple.xml",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.0/System.ValueTuple.dll",
+        "lib/netstandard1.0/System.ValueTuple.xml",
+        "lib/netstandard2.0/_._",
+        "lib/portable-net40+sl4+win8+wp8/System.ValueTuple.dll",
+        "lib/portable-net40+sl4+win8+wp8/System.ValueTuple.xml",
+        "lib/uap10.0.16299/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net461/System.ValueTuple.dll",
+        "ref/net47/System.ValueTuple.dll",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard2.0/_._",
+        "ref/portable-net40+sl4+win8+wp8/System.ValueTuple.dll",
+        "ref/uap10.0.16299/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.valuetuple.4.5.0.nupkg.sha512",
+        "system.valuetuple.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.7.2": [
+      "AngleSharp >= 0.16.1",
+      "Autoupdater.NET.Official >= 1.7.0",
+      "Discord.Net >= 3.3.2",
+      "DotNetSeleniumExtras.WaitHelpers >= 3.11.0",
+      "Microsoft.Office.Interop.Excel >= 15.0.4795.1000",
+      "Microsoft.Win32.Registry >= 5.0.0",
+      "Newtonsoft.Json >= 13.0.1",
+      "OpenQA.Selenium.Chrome.ChromeDriverExtensions >= 1.2.0",
+      "Selenium.Support >= 4.1.0",
+      "Selenium.WebDriver.ChromeDriver >= 98.0.4758.8000",
+      "SharpZipLib >= 1.3.3",
+      "System.Collections >= 4.3.0",
+      "System.Collections.Immutable >= 6.0.0",
+      "System.Data.SqlClient >= 4.8.3",
+      "System.Interactive.Async >= 6.0.1",
+      "System.Security.AccessControl >= 6.0.0",
+      "System.Text.Encoding.CodePages >= 6.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\User\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\User\\source\\repos\\SeleniumFirst\\SeleniumFirst\\SeleniumFirst.csproj",
+      "projectName": "SeleniumFirst",
+      "projectPath": "C:\\Users\\User\\source\\repos\\SeleniumFirst\\SeleniumFirst\\SeleniumFirst.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\User\\source\\repos\\SeleniumFirst\\SeleniumFirst\\obj\\",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "configFilePaths": [
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net472"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net472": {
+          "projectReferences": {}
+        }
+      }
+    },
+    "frameworks": {
+      "net472": {
+        "dependencies": {
+          "AngleSharp": {
+            "target": "Package",
+            "version": "[0.16.1, )"
+          },
+          "Autoupdater.NET.Official": {
+            "target": "Package",
+            "version": "[1.7.0, )"
+          },
+          "Discord.Net": {
+            "target": "Package",
+            "version": "[3.3.2, )"
+          },
+          "DotNetSeleniumExtras.WaitHelpers": {
+            "target": "Package",
+            "version": "[3.11.0, )"
+          },
+          "Microsoft.Office.Interop.Excel": {
+            "target": "Package",
+            "version": "[15.0.4795.1000, )"
+          },
+          "Microsoft.Win32.Registry": {
+            "target": "Package",
+            "version": "[5.0.0, )"
+          },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[13.0.1, )"
+          },
+          "OpenQA.Selenium.Chrome.ChromeDriverExtensions": {
+            "target": "Package",
+            "version": "[1.2.0, )"
+          },
+          "Selenium.Support": {
+            "target": "Package",
+            "version": "[4.1.0, )"
+          },
+          "Selenium.WebDriver.ChromeDriver": {
+            "target": "Package",
+            "version": "[98.0.4758.8000, )"
+          },
+          "SharpZipLib": {
+            "target": "Package",
+            "version": "[1.3.3, )"
+          },
+          "System.Collections": {
+            "target": "Package",
+            "version": "[4.3.0, )"
+          },
+          "System.Collections.Immutable": {
+            "target": "Package",
+            "version": "[6.0.0, )"
+          },
+          "System.Data.SqlClient": {
+            "target": "Package",
+            "version": "[4.8.3, )"
+          },
+          "System.Interactive.Async": {
+            "target": "Package",
+            "version": "[6.0.1, )"
+          },
+          "System.Security.AccessControl": {
+            "target": "Package",
+            "version": "[6.0.0, )"
+          },
+          "System.Text.Encoding.CodePages": {
+            "target": "Package",
+            "version": "[6.0.0, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  }
+}

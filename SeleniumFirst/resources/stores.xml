@@ -1,0 +1,26 @@
+<!--Stores XML config file - Ian McCambridge 2021
+ddvalue refers to DealerTrack "Store Location" HTML value -->
+<allstores>
+  <store title="Nissan Vacaville" domain="vacavillenissan.com" login="vacanissan" ddvalue="104531" timezone="PST" phoneA="707" phoneB="455" phoneC="4500" address="671 Orange Drive" city="Vacaville" state="CA" zip="95687"/>
+  <store title="North Bay Nissan" domain="northbaynissan.com" login="vacanissan" ddvalue="410137299" timezone="PST" phoneA="707" phoneB="769" phoneC="7700" address="1250 Auto Center Drive" city="Petaluma" state="CA" zip="94952"/>
+  <store title="Dodge Chrysler Jeep Vacaville" domain="vacavilledodge.com" login="vacadcj" ddvalue="104532" timezone="PST" phoneA="707" phoneB="446" phoneC="0891" address="681 Orange Drive" city="Vacaville" state="CA" zip="95687"/>
+  <store title="Buick GMC Vacaville" domain="buickgmcvacaville.com" login="vacabuickgmc" ddvalue="410000997" timezone="PST" phoneA="707" phoneB="471" phoneC="8800" address="350 Orange Drive" city="Vacaville" state="CA" zip="95687"/>
+  <store title="Nissan Yuba City" domain="yubacitynissan.com" login="yubanissan" ddvalue="410016584" timezone="PST" phoneA="530" phoneB="491" phoneC="5900" address="1340 Bridge Street" city="Yuba City" state="CA" zip="95993"/>
+  <store title="Nissan Sacramento" domain="sacnissan.com" login="sacnissan" ddvalue="410042876" timezone="PST" phoneA="916" phoneB="488" phoneC="5400" address="2820 Auburn Blvd" city="Sacramento" state="CA" zip="95821"/>
+  <store title="Vallejo Nissan" domain="vallejonissan.com" login="vallejonissan" ddvalue="410078849" timezone="PST" phoneA="707" phoneB="674" phoneC="5771" address="3287 Sonoma Blvd" city="Vallejo" state="CA" zip="94590"/>
+  <store title="Hyundai Vacaville" domain="hyundaivacaville.com" login="vacahyundai" ddvalue="410078861" timezone="PST" phoneA="707" phoneB="724" phoneC="5600" address="641 Orange Drive" city="Vacaville" state="CA" zip="95687"/>
+  <store title="Redwood Harley Davidson" domain="redwoodhd.com" login="redwoodhd" ddvalue="410103876" timezone="PST" phoneA="707" phoneB="444" phoneC="0111" address="2500 6th Street" city="Eureka" state="CA" zip="95501"/>
+  <store title="Kia Vacaville" domain="kiavacaville.com" login="vacakia" ddvalue="410104100" timezone="PST" phoneA="707" phoneB="359" phoneC="6400" address="651 Orange Drive" city="Vacaville" state="CA" zip="95687"/>
+  <store title="Infiniti Marin" domain="infinitimarin.com" login="marininfiniti" ddvalue="410105791" timezone="PST" phoneA="415" phoneB="526" phoneC="2400" address="475 Francisco Blvd E" city="San Rafael" state="CA" zip="94901"/>
+  <store title="Mazda Vacaville" domain="mazdavacaville.com" login="vacamazda" ddvalue="410107993" timezone="PST" phoneA="707" phoneB="602" phoneC="5070" address="580 Orange Drive" city="Vacaville" state="CA" zip="95687"/>
+  <store title="Harley Davidson Yuba City" domain="yubacityhd.com" login="yubahd" ddvalue="410109003" timezone="PST" phoneA="530" phoneB="673" phoneC="3548" address="720 W Onstott Rd" city="Yuba City" state="CA" zip="95991"/>
+  <store title="Volvo Cars Tucson" domain="tucsonvolvo.com" login="tucsonvolvo" ddvalue="410116551" timezone="AZ" phoneA="520" phoneB="594" phoneC="6420" address="831 W Wetmore Rd" city="Tucson" state="AZ" zip="85705"/>
+  <store title="Reno Harley Davidson" domain="renohd.com" login="renohd" ddvalue="410122215" timezone="PST" phoneA="775" phoneB="329" phoneC="2913" address="2315 Market Street" city="Reno" state="NV" zip="89502"/>
+  <store title="Golden State Nissan" domain="goldenstatenissan.com" login="gsnissan" ddvalue="410143601" timezone="PST" phoneA="650" phoneB="550" phoneC="7200" address="650 Serramonte Blvd" city="Colma" state="CA" zip="94014"/>
+  <store title="Golden State Infiniti" domain="goldenstateinfiniti.com" login="gsnissan" ddvalue="410150025" timezone="PST" phoneA="650" phoneB="550" phoneC="7200" address="650 Serramonte Blvd" city="Colma" state="CA" zip="94014"/>
+  <!--New Store-->
+	<store title="Death Valley Harley Davidson" domain="deathvalleyhd.com" login="victorvillehd" ddvalue="" timezone="PST" phoneA="760" phoneB="951" phoneC="1119" address="14522 Valley Center Dr" city="Victorville" state="CA" zip="92395"/>
+	<store title="Coronado Beach Harley Davidson" domain="coronadobeachhd.com" login="cbharley" ddvalue="" timezone="PST" phoneA="619" phoneB="786" phoneC="5578" address="3201 Hoover Avenue" city="National City" state="CA" zip="91950"/>
+	<store title="Orange County Harley Davidson" domain="orangecountyhd.com" login="ocharley" ddvalue="" timezone="PST" phoneA="657" phoneB="233" phoneC="4410" address="8677 Research Dr" city="Irvine" state="CA" zip="92618"/>
+  <store title="Wise Auto Group" domain="wiseautogroup.com" login="vacanissan" ddvalue="104531" timezone="PST" phoneA="707" phoneB="455" phoneC="4500" address="671 Orange Drive" city="Vacaville" state="CA" zip="95687"/>
+</allstores>
