@@ -1,0 +1,59 @@
+<state>
+
+  <settings>
+    <showBrowser value = "true"/>
+    <showConsole value = "true"/>
+    <timeout value = "30"/>
+    <admin>
+      <name value = "ISM [BOT]"/>
+		<dealertrack username = "" password = ""/>
+		<reynolds username = "" password = ""/>
+		<talones username = "" password = ""/>
+		<nnanet username = "" password = ""/>
+		<hyundaidealer username = "" password = ""/>
+		<mxconnect username = "" password = ""/>
+		<kdealer username = "" password = ""/>
+		<gmglobal username = "" password = ""/>
+		<dealerconnect username = "" password = ""/>
+		<hdnet username = "" password = ""/>
+		<hdnet1 username = "" password = ""/>
+		<hdnet2 username = "" password = ""/>
+		<hdnet3 username = "" password = ""/>
+		<hdnet4 username = "" password = ""/>
+		<hdnet5 username = "" password = ""/>
+		<vcc username = "" password = ""/>
+		<cudl username = "" password = ""/>
+		<office365 username = "" password = ""/>		
+    </admin>
+  </settings>
+
+  <field>
+    <new>
+      <firstname value = ""/>
+      <lastname value = ""/>
+      <ssn value = ""/>
+      <location value = ""/>
+      <role value = ""/>
+      <employeeNumber value = ""/>
+      <email value = ""/>
+      <password value = ""/>
+      <cbStoreEmail value = ""/>
+      <cbWiseemail value = ""/>
+      <cbDealerTrack value = ""/>
+      <cbDealerTrackCom value = ""/>
+      <cbReynolds value = ""/>
+      <!--Portal Checkboxes will go here-->
+    </new>
+    <transfer>
+    </transfer>
+    <termination>
+    </termination>
+    <search>
+    </search>
+  </field>
+
+  <queue>
+    <person name="Joe Biden" email="jbiden@wiseautogroup.com" date="10/10/10" type="Test" status="Done"/>
+  </queue>
+
+</state>

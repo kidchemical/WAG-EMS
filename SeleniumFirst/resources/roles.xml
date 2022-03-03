@@ -1,0 +1,623 @@
+<!--
+Role Configuration 2.0 - Ian McCambridge 2021
+XML Version
+-->
+<allroles>
+  <role title="AP Associate" department="Office" dtvalue="ACCAP" nnavalue="24" kdvalue="43" mxvalue="D851" hyuvalue="BD"> <!-- CHECK AND CONFIRM -->
+    <permissions>
+      <wisemail/>
+      <dealertrack/>
+      <reynolds/>
+      <portal/>
+      <office365/>
+    </permissions>
+  </role>
+  <role title="AP Manager" department="Office" dtvalue="ACCAP" nnavalue="24" kdvalue="43" mxvalue="D802" hyuvalue="BM"> <!-- CHECK AND CONFIRM -->
+    <permissions>
+      <wisemail/>
+      <dealertrack/>
+      <reynolds/>
+      <portal/>
+      <office365/>
+    </permissions>
+  </role>
+  <role title="Asst. Service Manager" department="Service" dtvalue="SRVMGR" nnavalue="3" kdvalue="10" mxvalue="D303" hyuvalue="SM">
+    <permissions>
+      <storemail/>
+      <dealertrack/>
+      <reynolds/>
+      <portal/>
+      <alarm/>
+    </permissions>
+  </role>
+  <role title="Asst. Shop Foreman" department="Service" dtvalue="TECH" nnavalue="35" kdvalue="49" mxvalue="D321" hyuvalue="ST">
+    <permissions>
+      <storemail/>
+      <dealertrack/>
+      <reynolds/>
+      <portal/>
+    </permissions>
+  </role>
+  <role title="Audit Director" department="Office" dtvalue="OAD" nnavalue="24" kdvalue="43" mxvalue="D802" hyuvalue="BM">
+    <permissions>
+      <wisemail/>
+      <dealertrack/>
+      <reynolds/>
+      <office365/>
+    </permissions>
+  </role>
+  <role title="BDC - Sales" department="Sales" dtvalue="SP" nnavalue="41" kdvalue="43" mxvalue="D102"  hyuvalue="BD">
+    <permissions>
+      <wisemail/>
+    </permissions>
+  </role>
+  <role title="BDC - Service" department="Service" dtvalue="SRVADV" nnavalue="35" kdvalue="43" mxvalue="D311" hyuvalue="BD">
+    <permissions>
+      <storemail/>
+      <dealertrack/>
+      <reynolds/>
+      <portal/>
+    </permissions>
+  </role>
+  <role title="Benefits Admin" department="Office" dtvalue="OAD" nnavalue="24" kdvalue="19" mxvalue="D306" hyuvalue="CM">
+    <permissions>
+      <wisemail/>
+      <dealertrack/>
+      <reynolds/>
+      <office365/>
+    </permissions>
+  </role>
+	<role title="Business Office Admin" department="Office" dtvalue="OAD" nnavalue="24"  kdvalue="43" mxvalue="D802" hyuvalue="OM"> <!-- Addition made for Danielle Neal / Lauren request-->
+		<permissions>
+			<wisemail/>
+			<dealertrack/>
+			<reynolds/>
+			<!--<portal/>-->
+			<office365/>
+		</permissions>
+	</role>
+  <role title="Business Office Associate" department="Office" dtvalue="OAD" nnavalue="24"  kdvalue="43" mxvalue="D802" hyuvalue="BD"> <!-- Lauren request-->
+    <permissions>
+      <wisemail/>
+      <dealertrack/>
+      <!--<portal/>-->
+      <office365/>
+    </permissions>
+  </role>
+  <role title="Cashier" department="Parts" dtvalue="CSH" nnavalue="10" kdvalue="17" mxvalue="D856" hyuvalue="PC"> <!-- Has special exeptions -->
+    <permissions>
+      <storemail/>
+      <dealertrack>vacaville</dealertrack>
+      <reynolds/>
+      <portal>nissan</portal>
+    </permissions>
+  </role>
+  <role title="CFO" department="Office" dtvalue="OAD" nnavalue="24" kdvalue="43" mxvalue="D802"  hyuvalue="FM">
+    <permissions>
+      <wisemail/>
+      <dealertrack/>
+      <reynolds/>
+      <portal/>
+      <office365/>
+    </permissions>
+  </role>
+	<role title="Contracts Associate (H-D)" department="Finance" dtvalue="FMG" hdvalue="0" hddvalue="FININS" hdmvalue="16">
+		<!-- New position -->
+		<permissions>
+			<storemail/>
+		</permissions>
+	</role>
+  <role title="Controller" department="Office" dtvalue="CTR" nnavalue="11" kdvalue="16" mxvalue="D801"  hyuvalue="DA">
+    <permissions>
+      <wisemail/>
+      <dealertrack/>
+      <reynolds/>
+      <portal/>
+      <office365/>
+    </permissions>
+  </role>
+  <role title="Delivery Driver" department="Service" dtvalue="SRVSTF" nnavalue="35" kdvalue="58" mxvalue="D161" hyuvalue="ST">
+    <permissions>
+      <storemail/>
+    </permissions>
+  </role>
+  <role title="Deposits Associate" department="Office" dtvalue="OS" nnavalue="24" kdvalue="43" mxvalue="D852" hyuvalue="FI">
+    <permissions>
+      <wisemail/>
+      <dealertrack/>
+      <reynolds/>
+      <office365/>
+    </permissions>
+  </role>
+  <role title="Detailer" department="Service" dtvalue="SRVSTF" nnavalue="35" kdvalue="61" mxvalue="D162" hyuvalue="ST">
+    <permissions>
+      <storemail/>
+      <!--<dealertrack/>
+      <reynolds/>-->
+    </permissions>
+  </role>
+  <role title="DMV Associate" department="Office" dtvalue="OS" nnavalue="24" kdvalue="43" mxvalue="D852" hyuvalue="FI">
+    <permissions>
+      <wisemail/>
+      <dealertrack/>
+      <reynolds/>
+      <office365/>
+    </permissions>
+  </role>
+  <role title="DMV Manager" department="Office" dtvalue="OAD" nnavalue="24" kdvalue="43" mxvalue="D802" hyuvalue="OM">
+    <permissions>
+      <wisemail/>
+      <dealertrack/>
+      <reynolds/>
+      <office365/>
+    </permissions>
+  </role>
+  <role title="Express Advisor" department="Service" dtvalue="SRVADV" nnavalue="33" kdvalue="57" mxvalue="D311" hyuvalue="XC">
+    <permissions>
+      <storemail/>
+      <dealertrack/>
+      <reynolds/>
+      <portal/>
+    </permissions>
+  </role>
+  <role title="Facility Manager" department="Office" dtvalue="GMG" nnavalue="17" kdvalue="35" mxvalue="D899" hyuvalue="GM">
+    <permissions>
+      <wisemail/>
+      <dealertrack/>
+      <reynolds/>
+      <portal/>
+      <office365/>
+    </permissions>
+  </role>
+  <role title="Finance Associate (H-D)" department="Finance" dtvalue="FMG" hdvalue="0" hddvalue="FININS" hdmvalue="16"> <!-- Rick Davis @ Yuba manager -->
+    <permissions>
+      <storemail/>
+      <portal/>
+    </permissions>
+  </role>
+  <role title="Finance Director" department="Sales" dtvalue="FMG" nnavalue="15" kdvalue="29" mxvalue="D101" hyuvalue="FM">
+    <permissions>
+      <wisemail/>
+      <dealertrack/>
+      <dealertrackcom/>
+      <reynolds/>
+      <rpm/>
+      <cudl/>
+      <portal/>
+      <alarm/>
+    </permissions>
+  </role>
+  <role title="Finance Manager" department="Sales" dtvalue="FMG" nnavalue="15" kdvalue="29" mxvalue="D102" hyuvalue="FM">
+    <permissions>
+      <storemail/>
+      <dealertrack/>
+      <dealertrackcom/>
+      <reynolds/>
+      <rpm/>
+      <cudl/>
+      <portal/>
+      <alarm/>
+    </permissions>
+  </role>
+  <role title="Fit Specialist" department="Sales" hdvalue="1" hdmvalue= "35" hddvalue ="VEHSAL" > <!-- HD NET ONLY: H-D Vehicle Sales Associate-->
+    <permissions>
+      <storemail/>
+      <portal/>
+    </permissions>
+  </role>
+  <role title="Fleet Director" department="Sales" dtvalue="GSM" nnavalue="32" kdvalue="32" mxvalue="D101" hyuvalue="GM">
+    <permissions>
+			<wisemail/>
+			<dealertrack/>
+			<portal/>
+    </permissions>
+  </role>
+  <role title="Fleet Driver" department="Sales" dtvalue="SRVSTF" nnavalue="87" kdvalue="27" mxvalue="D361" hyuvalue="ST">
+    <permissions>
+      <storemail/>
+    </permissions>
+  </role>
+  <role title="Fleet Manager" department="Sales" dtvalue="GSM" nnavalue="17" kdvalue="32" mxvalue="D102" hyuvalue="GM">
+    <permissions>
+      <wisemail/>
+      <dealertrack/>
+      <reynolds/>
+      <portal/>
+    </permissions>
+  </role>
+  <role title="General Sales Manager" department="Sales" dtvalue="GSM" nnavalue="17" kdvalue="30" mxvalue="D102" hyuvalue="GM">
+    <permissions>
+      <storemail/>
+      <dealertrack/>
+      <dealertrackcom/>
+      <reynolds/>
+      <rpm/>
+      <cudl/>
+      <portal/>
+      <alarm/>
+    </permissions>
+  </role>
+  <role title="HR Assistant" department="Office" dtvalue="OAD" nnavalue="24" kdvalue="43" mxvalue="D852" hyuvalue="OM">
+    <permissions>
+      <wisemail/>
+      <dealertrack/>
+      <reynolds/>
+      <portal/>
+      <office365/>
+    </permissions>
+  </role>
+  <role title="HR Director" department="Office" dtvalue="OAD" nnavalue="24" kdvalue="43" mxvalue="D802" hyuvalue="OM">
+    <permissions>
+      <wisemail/>
+      <dealertrack/>
+      <reynolds/>
+      <office365/>
+    </permissions>
+  </role>
+  <role title="HR Generalist" department="Office" dtvalue="OAD" nnavalue="24" kdvalue="43" mxvalue="D852" hyuvalue="OM">
+    <permissions>
+      <wisemail/>
+      <dealertrack/>
+      <reynolds/>
+      <office365/>
+    </permissions>
+  </role>
+  <role title="HR Manager" department="Office" dtvalue="OAD" nnavalue="24" kdvalue="43" mxvalue="D802" hyuvalue="OM">
+    <permissions>
+      <wisemail/>
+      <dealertrack/>
+      <reynolds/>
+      <office365/>
+    </permissions>
+  </role>
+  <!--<role title="I-Pre-Check Assistant Director" department="Sales" dtvalue="OAD" nnavalue="24" kdvalue="43" mxvalue="D802" hyuvalue="SM">
+    <permissions>
+      <wisemail/>
+      <dealertrack/>
+      <dealertrackcom/>
+      <reynolds/>
+      <rpm/>
+      <cudl/>
+      <portal/>
+      <alarm/>
+    </permissions>
+  </role>-->
+  <role title="Internal Audit Associate" department="Office" dtvalue="OAD" nnavalue="24" kdvalue="43" mxvalue="D851" hyuvalue="OM">
+    <permissions>
+      <wisemail/>
+      <dealertrack/>
+      <reynolds/>
+      <portal/>
+      <office365/>
+    </permissions>
+  </role>
+  <role title="Internet Director" department="Sales" dtvalue="ISMGR"  nnavalue="20" kdvalue="67" mxvalue="D120" hyuvalue="IM">
+    <permissions>
+      <wisemail/>
+      <reynolds/>
+      <portal/>
+    </permissions>
+  </role>
+  <role title="Internet Sales" department="Sales" dtvalue="OS"  nnavalue="142" kdvalue="40" mxvalue="D121" hyuvalue="SP">
+    <permissions>
+      <storemail/>
+      <reynolds/>
+      <portal/>
+    </permissions>
+  </role>
+  <role title="Inventory Director" department="Office" dtvalue="OAD" nnavalue="11" kdvalue="43" mxvalue="D421" hyuvalue="OM"  hdvalue="0" hdmvalue= "18" hddvalue ="ADMN">
+    <permissions>
+      <wisemail/>
+      <dealertrack/>
+      <reynolds/>
+      <portal/>
+      <office365/>
+    </permissions>
+  </role>
+  <role title="Inventory Associate" department="Office" dtvalue="OAD" nnavalue="24" kdvalue="43" mxvalue="D421" hyuvalue="OM"  hdvalue="0" hdmvalue= "18" hddvalue ="ADMN">  <!-- ADDED, TOLD SAME AS OFFICE STAFF-->
+    <permissions>
+      <!--<wisemail/>-->
+      <storemail/>
+      <dealertrack/>
+      <reynolds/>
+      <portal>all</portal>
+      <office365/>
+    </permissions>
+  </role>
+  <role title="IT Associate" department="IT" dtvalue="ITSTF"  nnavalue="21" kdvalue="43" mxvalue="D899" hyuvalue="DA">
+    <permissions>
+      <wisemail/>
+      <dealertrack/>
+      <reynolds/>
+      <rpm/>
+      <cudl/>
+      <portal/>
+      <alarm/>
+      <office365/>
+    </permissions>
+  </role>
+  <role title="IT Manager" department="IT" dtvalue="ITDIR"  nnavalue="21" kdvalue="43" mxvalue="D899" hyuvalue="DA">
+    <permissions>
+      <wisemail/>
+      <dealertrack/>
+      <reynolds/>
+      <rpm/>
+      <cudl/>
+      <portal/>
+      <alarm/>
+      <office365/>
+    </permissions>
+  </role>
+  <role title="Lube Technician" department="Service" dtvalue="TECH" nnavalue="42" kdvalue="41" mxvalue="D350" hyuvalue="XT">
+    <permissions>
+      <storemail/>
+      <dealertrack/>
+      <reynolds/>
+      <portal/>
+    </permissions>
+  </role>
+  <role title="Marketing Associate" department="Office" dtvalue="OAD" nnavalue="24" kdvalue="40" mxvalue="D851" hyuvalue="OM">
+    <permissions>
+      <wisemail/>
+      <dealertrack/>
+      <reynolds/>
+      <portal/>
+      <office365/>
+    </permissions>
+  </role>
+  <role title="Marketing Director" department="Office" dtvalue="OAD" nnavalue="24" kdvalue="67" mxvalue="D802" hyuvalue="OM">
+    <permissions>
+      <wisemail/>
+      <dealertrack/>
+      <reynolds/>
+      <portal/>
+      <office365/>
+    </permissions>
+  </role>
+  <role title="Motorclothes Associate" department="Sales" dtvalue="CSH" hdvalue="2" hdmvalue= "35" hddvalue ="GENMS">
+    <permissions>
+      <storemail/>
+      <dealertrack/>
+      <portal/>
+    </permissions>
+  </role>
+  <role title="Motorclothes Manager" department="Sales" dtvalue="CSH"  hdvalue="4" hdmvalue= "35" hddvalue ="GENMS">
+    <permissions>
+      <storemail/>
+      <dealertrack/>
+      <portal/>
+      <alarm/>
+      <office365/>
+    </permissions>
+  </role>
+  <role title="Motorcycle Purchasing Agent" department="Sales" dtvalue="SP"  hdvalue="1" hdmvalue= "35" hddvalue ="VEHSAL"><!--Used Car Manager? UCM-->
+    <permissions>
+      <storemail/>
+      <dealertrack/>
+      <portal/>
+    </permissions>
+  </role>
+  <role title="New Car Manager" department="Sales" dtvalue="SMG" nnavalue="22"  kdvalue="56" mxvalue="D102" hyuvalue="SM">
+    <permissions>
+      <storemail/>
+      <dealertrack/>
+      <dealertrackcom/>
+      <reynolds/>
+      <rpm/>
+      <cudl/>
+      <portal/>
+      <alarm/>
+    </permissions>
+  </role>
+  <role title="Office Manager" department="Office" dtvalue="OAD" nnavalue="24"  kdvalue="43" mxvalue="D802" hyuvalue="OM">
+    <permissions>
+      <wisemail/>
+      <dealertrack/>
+      <reynolds/>
+      <portal/>
+      <office365/>
+    </permissions>
+  </role>
+  <role title="OLM Associate" department="Service" dtvalue="SRVADV" nnavalue="86" kdvalue="19" mxvalue="D306" hyuvalue="SC">        <!-- CHECK AND CONFIRM -->
+    <permissions>
+      <storemail/>
+      <dealertrack/>
+      <dealertrackcom/>
+      <reynolds/>
+      <rpm/>
+      <cudl/>
+      <portal/>
+    </permissions>
+  </role>
+  <role title="OLM Manager" department="Service" dtvalue="SRVADV"  nnavalue="86" kdvalue="19" mxvalue="D306" hyuvalue="CX">
+    <permissions>
+      <storemail/>
+      <dealertrack/>
+      <dealertrackcom/>
+      <reynolds/>
+      <rpm/>
+      <cudl/>
+      <portal/>
+    </permissions>
+  </role>
+  <role title="Parts Advisor" department="Parts" dtvalue="PDSTF" nnavalue="26" kdvalue="51" mxvalue="D426" hyuvalue="PC"  hdvalue="5" hdmvalue= "" hddvalue ="PNA"> <!-- CHECK AND CONFIRM ALL PARTS SPECIFICS -->
+    <permissions>
+      <storemail/>
+      <dealertrack/>
+      <reynolds/>
+      <portal/>
+    </permissions>
+  </role>
+  <role title="Parts Counter" department="Parts" dtvalue="PDSTF" nnavalue="26" kdvalue="51" mxvalue="D412" hyuvalue="PC"> <!-- CHECK AND CONFIRM ALL PARTS SPECIFICS -->
+    <permissions>
+      <storemail/>
+      <dealertrack/>
+      <reynolds/>
+      <portal/>
+    </permissions>
+  </role>
+	<role title="Parts Director" department="Parts" dtvalue="PDSTF" nnavalue="39" kdvalue="48" mxvalue="D402" hyuvalue="PM">
+		<permissions>
+			<wisemail/>
+			<dealertrack/>
+			<dealertrackcom/>
+			<reynolds/>
+			<portal/>
+			<alarm/>
+		</permissions>
+	</role>
+	<role title="Parts Driver" department="Parts">
+		<permissions>
+			<storemail/>
+		</permissions>
+	</role>
+  <role title="Parts Manager" department="Parts" dtvalue="PDMGR" nnavalue="28" kdvalue="50" mxvalue="D402" hyuvalue="PM">
+    <permissions>
+      <storemail/>
+      <dealertrack/>
+      <dealertrackcom/>
+      <reynolds/>
+      <portal/>
+      <alarm/>
+    </permissions>
+  </role>
+	<role title="Parts Shipping and Receiving" department="Parts">
+		<permissions>
+			<storemail/>
+		</permissions>
+	</role>
+  <role title="Payroll Associate" department="Office" dtvalue="OAD" nnavalue="24" kdvalue="43" mxvalue="D851" hyuvalue="OM">
+    <permissions>
+      <wisemail/>
+      <dealertrack/>
+      <reynolds/>
+      <portal/>
+      <office365/>
+    </permissions>
+  </role>
+  <role title="Payroll Manager" department="Office" dtvalue="OAD" nnavalue="24" kdvalue="43" mxvalue="D802" hyuvalue="OM">
+    <permissions>
+      <wisemail/>
+      <dealertrack/>
+      <reynolds/>
+      <portal/>
+      <office365/>
+    </permissions>
+  </role>
+  <role title="Porter" department="Service" dtvalue="SRVSTF" nnavalue="35" kdvalue="12" mxvalue="D161" hyuvalue="ST">
+    <permissions>
+      <storemail/>
+    </permissions>
+  </role>
+  <role title="Product Specialist" department="Sales" dtvalue="" nnavalue="31" kdvalue="55" mxvalue="D426" hyuvalue="SP"><!--Sales Consultant on KDealer-->
+    <permissions>
+      <storemail/>
+      <reynolds/>
+      <portal/>
+    </permissions>
+  </role>
+  <role title="Sales Manager" department="Sales" dtvalue="SMG" nnavalue="32" kdvalue="56" mxvalue="D102" hyuvalue="SM">
+    <permissions>
+      <storemail/>
+      <dealertrack/>
+      <dealertrackcom/>
+      <reynolds/>
+      <rpm/>
+      <cudl/>
+      <portal/>
+      <office365/>
+      <alarm/>
+    </permissions>
+  </role>
+  <role title="Service Advisor" department="Service" dtvalue="SRVADV" nnavalue="33" kdvalue="57" mxvalue="D311" hyuvalue="SC"> <!-- CHECK AND CONFIRM -->
+    <permissions>
+      <storemail/>
+      <dealertrack/>
+      <reynolds/>
+      <portal/>
+    </permissions>
+  </role>
+  <role title="Service Manager" department="Service" dtvalue="SRVMGR" nnavalue="34" kdvalue="53" mxvalue="D302" hyuvalue="SV">
+    <permissions>
+      <storemail/>
+      <dealertrack/>
+      <reynolds/>
+      <portal/>
+      <office365/>
+      <alarm/>
+    </permissions>
+  </role>
+  <role title="Shop Foreman" department="Service" dtvalue="TECH" nnavalue="35" kdvalue="49" mxvalue="D321" hyuvalue="ST">
+    <permissions>
+      <storemail/>
+      <dealertrack/>
+      <reynolds/>
+      <portal/>
+    </permissions>
+  </role>
+  <role title="Shuttle Driver" department="Service" dtvalue="SRVSTF" nnavalue="87" kdvalue="12" mxvalue="D161" hyuvalue="OT"> <!-- CHECK AND CONFIRM .. No DealerTrack? -->
+    <permissions>
+      <storemail/>
+    </permissions>
+  </role>
+  <role title="Special Finance" department="Sales" dtvalue="FMG" nnannet="15" kdvalue="55" mxvalue="D306" hyuvalue="FM">
+    <permissions>
+      <storemail/>
+      <dealertrack/>
+      <dealertrackcom/>
+      <reynolds/>
+      <rpm/>
+      <cudl/>
+      <portal/>
+      <alarm/>
+    </permissions>
+  </role>
+  <role title="Technician" department="Service" dtvalue="TECH" nnavalue="35" kdvalue="41" mxvalue="D350" hyuvalue="ST">
+    <permissions>
+      <storemail/>
+      <dealertrack/>
+      <dealertrackcom/>
+      <reynolds/>
+      <portal/>
+    </permissions>
+  </role>
+  <role title="Used Car Analyst" department="Used Cars" dtvalue="UCM" nnavalue="162" kdvalue="39" mxvalue="D202" hyuvalue="SV">
+    <permissions>
+      <wisemail/>
+      <dealertrack/>
+      <reynolds/>
+      <office365/>
+    </permissions>
+  </role>
+  <role title="Used Car Associate" department="Used Cars" dtvalue="UCM" nnavalue="162" kdvalue="39" mxvalue="D202" hyuvalue="SC">
+    <permissions>
+      <wisemail/>
+      <dealertrack/>
+      <reynolds/>
+      <office365/>
+    </permissions>
+  </role>
+  <role title="Used Car Manager" department="Used Cars" dtvalue="UCM"  nnavalue="39" kdvalue="38" mxvalue="D202" hyuvalue="SV">
+    <permissions>
+      <wisemail/>
+      <dealertrack/>
+      <reynolds/>
+      <office365/>
+      <alarm/>
+    </permissions>
+  </role>
+    <role title="Valet" department="Service" dtvalue="SRVSTF" nnavalue="35" kdvalue="12" mxvalue="D161" hyuvalue="ST">
+	    <permissions>
+		    <storemail/>
+	    </permissions>
+    </role>
+  <role title="Warranty Admin" department="Office" dtvalue="SRVSTF" nnavalue="38" kdvalue="26" mxvalue="D328" hyuvalue="WA">
+    <permissions>
+      <wisemail/>
+      <dealertrack/>
+      <reynolds/>
+      <portal>all</portal> <!-- reference to implementation -->
+      <office365/>
+    </permissions>
+  </role>
+</allroles>
