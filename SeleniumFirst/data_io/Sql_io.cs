@@ -12,8 +12,7 @@ namespace SeleniumFirst
     public class Sql_io
     {
         // SQL - Wise Auto Group IT Amazon RDS Database
-        private string connectionString = @"***REMOVED***";
-        // old db "@"***REMOVED***"";
+        private string connectionString = @"Data Source=XXXXXXXXXXXXX.rds.amazonaws.com;Initial Catalog=wag-db;Persist Security Info=True;User ID=XXXXXXXX;Password=XXXXXXXXXXXXXXXX";
 
         public bool Write_DB(Person employee, Person admin)
         {
