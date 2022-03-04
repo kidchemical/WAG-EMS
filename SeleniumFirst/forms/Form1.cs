@@ -252,36 +252,36 @@ namespace SeleniumFirst
         {
             if (_admin)
             {
-***REMOVED***
-***REMOVED***
-***REMOVED***
-***REMOVED***
-***REMOVED***
-***REMOVED***
-***REMOVED***
-***REMOVED***
-***REMOVED***
-***REMOVED***
-***REMOVED***
-***REMOVED***
-***REMOVED***
-***REMOVED***
-***REMOVED***
-***REMOVED***
-***REMOVED***
-***REMOVED***
-***REMOVED***
-***REMOVED***
-***REMOVED***
-***REMOVED***
-***REMOVED***
-***REMOVED***
-***REMOVED***
-***REMOVED***
-***REMOVED***
-***REMOVED***
-***REMOVED***
-***REMOVED***
+                admin.dealertrack.username = "";
+                admin.dealertrack.password = "";
+                admin.reynolds.username = "";
+                admin.reynolds.password = "";
+                admin.nnanet.username = "";
+                admin.nnanet.password = "";
+                admin.hyundaidealer.username = "";
+                admin.hyundaidealer.password = "";
+                admin.mxconnect.username = "";
+                admin.mxconnect.password = "";
+                admin.hdnet.username = "";      //Reno
+                admin.hdnet1.username = "";    //Yuba
+                admin.hdnet2.username = "";    //Redwood
+                admin.hdnet3.username = "";    //Death Valley
+                admin.hdnet.password = "";
+                admin.hdnet1.password = "";
+                admin.hdnet2.password = "";
+                admin.hdnet3.password = "";
+                admin.kdealer.username = "";
+                admin.kdealer.password = "";
+                admin.cudl.username = "";
+                admin.cudl.password = "";
+                admin.gmglobal.username = "";
+                admin.gmglobal.password = "";
+                admin.dealerconnect.username = "";
+                admin.dealerconnect.password = "";
+                admin.vcc.username = "";
+                admin.vcc.password = "";
+                admin.office365.username = "";
+                admin.office365.password = "";
             }
         }
 
