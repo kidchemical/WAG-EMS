@@ -17,6 +17,7 @@
 - Possibility of creating "Employee's Credential Printout"  <br/>
 - Terms and Transfers  <br/>
 - Queue list  <br/>
+- Selenium Framework to interact with bleeding edge ChromeDriver
 
 
 # 📝To-Do:
