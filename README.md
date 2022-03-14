@@ -1,5 +1,5 @@
 # Project-Rockwell-Automation
-**WAG IT Tool for automating New Hires.** 
+**WAG IT Tool for automating Employee Management.** 
 
 ---
 ![thumbnail](https://i.ibb.co/jDsrN4D/image.png)
