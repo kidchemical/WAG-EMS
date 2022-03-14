@@ -14,9 +14,9 @@
 - Proper error detection (full email domains, service down, verification of processes)  <br/>
 - One time Multi-factor Authorization support (dealertrack)  <br/>
 - Manage employees using MSSQL database [AWS]<br/>
-- Possibility of creating "Employee's Credential Printout"  <br/>
+- Possibility of creating "Employee's Credential Printout" to Excel spreadsheet [.xlsx] <br/>
 - Terms and Transfers  <br/>
-- Queue list  <br/>
+- Queue list with status of progress <br/>
 - Selenium Framework to interact with bleeding edge ChromeDriver
 
 
